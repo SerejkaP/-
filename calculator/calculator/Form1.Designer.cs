@@ -51,7 +51,7 @@
             this.Plus.TabIndex = 0;
             this.Plus.Text = "+";
             this.Plus.UseVisualStyleBackColor = true;
-            this.Plus.Click += new System.EventHandler(this.Plus_Click);
+            this.Plus.Click += new System.EventHandler(this.Label1_Click);
             // 
             // Minus
             // 
@@ -61,7 +61,7 @@
             this.Minus.TabIndex = 1;
             this.Minus.Text = "-";
             this.Minus.UseVisualStyleBackColor = true;
-            this.Minus.Click += new System.EventHandler(this.Minus_Click);
+            this.Minus.Click += new System.EventHandler(this.Label1_Click);
             // 
             // Multiply
             // 
@@ -71,7 +71,7 @@
             this.Multiply.TabIndex = 2;
             this.Multiply.Text = "*";
             this.Multiply.UseVisualStyleBackColor = true;
-            this.Multiply.Click += new System.EventHandler(this.Multiply_Click);
+            this.Multiply.Click += new System.EventHandler(this.Label1_Click);
             // 
             // Divide
             // 
@@ -81,7 +81,7 @@
             this.Divide.TabIndex = 3;
             this.Divide.Text = "/";
             this.Divide.UseVisualStyleBackColor = true;
-            this.Divide.Click += new System.EventHandler(this.Divide_Click);
+            this.Divide.Click += new System.EventHandler(this.Label1_Click);
             // 
             // firstValue
             // 
