@@ -19,37 +19,11 @@ namespace calculator
 
         private void Label1_Click(object sender, EventArgs e)
         {
-            double firValue = Convert.ToDouble(firstValue.Text);
-            double secValue = Convert.ToDouble(secondValue.Text);
-            double result;
-            switch (((Button) sender).Name)
-            {
-                 case "Plus":
-                 {
-                   
-                    result = firValue + secValue;
-                   
-                    break;
-                 }
+            double firsrValue = Convert.ToDouble(firstValue.Text);
+            double seconddValue = Convert.ToDouble(secondValue.Text);
+            ICalculator calculator = TwoArgumentsFactory.CreateCalculator(((Button)sender).Name);
+            double result = calculator.Calculate(firsrValue, seconddValue);
 
-                 case "Minus":
-                 { result = firValue - secValue;
-                     break;
-                 }
-
-                 case "Multiply":
-                 { result = firValue * secValue;
-                     break;
-                 }
-
-                 case "Divide":
-                 { result = firValue / secValue;
-                     break;
-                 }
-
-                default:
-                    throw new Exception("Неизвестная операция");
-            }
 
             Result.Text = result.ToString();
         }

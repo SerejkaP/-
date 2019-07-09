@@ -6,7 +6,11 @@ using System.Threading.Tasks;
 
 namespace calculator
 {
-    class SubtractionCalculator
+    class SubtractionCalculator:ICalculator
     {
+        public double Calculate(double firstValue, double secondValue)
+        {
+            return firstValue - secondValue;
+        }
     }
 }
