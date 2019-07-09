@@ -19,41 +19,31 @@ namespace calculator
 
         private void Label1_Click(object sender, EventArgs e)
         {
+            double firValue = Convert.ToDouble(firstValue.Text);
+            double secValue = Convert.ToDouble(secondValue.Text);
+            double result;
             switch (((Button) sender).Name)
             {
                  case "Plus":
                  {
-                    double firValue = Convert.ToDouble(firstValue.Text);
-                    double secValue = Convert.ToDouble(secondValue.Text);
-                    double result = firValue + secValue;
-                    Result.Text = result.ToString();
+                   
+                    result = firValue + secValue;
+                   
                     break;
                  }
 
                  case "Minus":
-                 {
-                     double firValue = Convert.ToDouble(firstValue.Text);
-                     double secValue = Convert.ToDouble(secondValue.Text);
-                     double result = firValue - secValue;
-                     Result.Text = result.ToString();
+                 { result = firValue - secValue;
                      break;
                  }
 
                  case "Multiply":
-                 {
-                     double firValue = Convert.ToDouble(firstValue.Text);
-                     double secValue = Convert.ToDouble(secondValue.Text);
-                     double result = firValue * secValue;
-                     Result.Text = result.ToString();
+                 { result = firValue * secValue;
                      break;
                  }
 
                  case "Divide":
-                 {
-                     double firValue = Convert.ToDouble(firstValue.Text);
-                     double secValue = Convert.ToDouble(secondValue.Text);
-                     double result = firValue / secValue;
-                     Result.Text = result.ToString();
+                 { result = firValue / secValue;
                      break;
                  }
 
@@ -61,6 +51,7 @@ namespace calculator
                     throw new Exception("Неизвестная операция");
             }
 
+            Result.Text = result.ToString();
         }
     }
 }
