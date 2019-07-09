@@ -19,48 +19,39 @@ namespace calculator
 
         private void Label1_Click(object sender, EventArgs e)
         {
-            switch (((Button) sender).Name)
-            {
-                 case "Plus":
-                 {
-                    double firValue = Convert.ToDouble(firstValue.Text);
-                    double secValue = Convert.ToDouble(secondValue.Text);
-                    double result = firValue + secValue;
-                    Result.Text = result.ToString();
-                    break;
-                 }
 
-                 case "Minus":
-                 {
-                     double firValue = Convert.ToDouble(firstValue.Text);
-                     double secValue = Convert.ToDouble(secondValue.Text);
-                     double result = firValue - secValue;
-                     Result.Text = result.ToString();
-                     break;
-                 }
+        }
 
-                 case "Multiply":
-                 {
-                     double firValue = Convert.ToDouble(firstValue.Text);
-                     double secValue = Convert.ToDouble(secondValue.Text);
-                     double result = firValue * secValue;
-                     Result.Text = result.ToString();
-                     break;
-                 }
+        private void Plus_Click(object sender, EventArgs e)
+        {
+            double firValue = Convert.ToDouble(firstValue.Text);
+            double secValue = Convert.ToDouble(secondValue.Text);
+            double result = firValue + secValue;
+            Result.Text = result.ToString();
+        }
 
-                 case "Divide":
-                 {
-                     double firValue = Convert.ToDouble(firstValue.Text);
-                     double secValue = Convert.ToDouble(secondValue.Text);
-                     double result = firValue / secValue;
-                     Result.Text = result.ToString();
-                     break;
-                 }
+        private void Minus_Click(object sender, EventArgs e)
+        {
+            double firValue = Convert.ToDouble(firstValue.Text);
+            double secValue = Convert.ToDouble(secondValue.Text);
+            double result = firValue - secValue;
+            Result.Text = result.ToString();
+        }
 
-                default:
-                    throw new Exception("Неизвестная операция");
-            }
+        private void Multiply_Click(object sender, EventArgs e)
+        {
+            double firValue = Convert.ToDouble(firstValue.Text);
+            double secValue = Convert.ToDouble(secondValue.Text);
+            double result = firValue * secValue;
+            Result.Text = result.ToString();
+        }
 
+        private void Divide_Click(object sender, EventArgs e)
+        {
+            double firValue = Convert.ToDouble(firstValue.Text);
+            double secValue = Convert.ToDouble(secondValue.Text);
+            double result = firValue / secValue;
+            Result.Text = result.ToString();
         }
     }
 }
