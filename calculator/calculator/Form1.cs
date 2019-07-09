@@ -16,5 +16,42 @@ namespace calculator
         {
             InitializeComponent();
         }
+
+        private void Label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Plus_Click(object sender, EventArgs e)
+        {
+            double firValue = Convert.ToDouble(firstValue.Text);
+            double secValue = Convert.ToDouble(secondValue.Text);
+            double result = firValue + secValue;
+            Result.Text = result.ToString();
+        }
+
+        private void Minus_Click(object sender, EventArgs e)
+        {
+            double firValue = Convert.ToDouble(firstValue.Text);
+            double secValue = Convert.ToDouble(secondValue.Text);
+            double result = firValue - secValue;
+            Result.Text = result.ToString();
+        }
+
+        private void Multiply_Click(object sender, EventArgs e)
+        {
+            double firValue = Convert.ToDouble(firstValue.Text);
+            double secValue = Convert.ToDouble(secondValue.Text);
+            double result = firValue * secValue;
+            Result.Text = result.ToString();
+        }
+
+        private void Divide_Click(object sender, EventArgs e)
+        {
+            double firValue = Convert.ToDouble(firstValue.Text);
+            double secValue = Convert.ToDouble(secondValue.Text);
+            double result = firValue / secValue;
+            Result.Text = result.ToString();
+        }
     }
 }
