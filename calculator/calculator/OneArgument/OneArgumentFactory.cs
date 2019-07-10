@@ -1,14 +1,10 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace calculator.OneArgument
 {
     public static class OneArgumentFactory
     {
-        public static IOneArgument CreateCalculator(string name)
+        public static IOneArgumentCalculator CreateCalculator(string name)
         {
             switch (name)
             {
