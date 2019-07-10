@@ -16,6 +16,8 @@ namespace calculator.TwoArguments
                     return new MultiplyCalculator();
                 case "Divide":
                     return new DivisionCalculator();
+                case "PowerTwoArguments":
+                    return new PowerTwoArguments();
                 default:
                     throw new Exception("Неизвестная операция");
             }

@@ -180,6 +180,7 @@
             this.PowerTwoArguments.TabIndex = 13;
             this.PowerTwoArguments.Text = "x^y";
             this.PowerTwoArguments.UseVisualStyleBackColor = true;
+            this.PowerTwoArguments.Click += new System.EventHandler(this.Label1_Click);
             // 
             // Form1
             // 
