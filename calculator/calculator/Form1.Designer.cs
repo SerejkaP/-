@@ -56,6 +56,7 @@
             this.LogOfExp = new System.Windows.Forms.Button();
             this.Exponent = new System.Windows.Forms.Button();
             this.Tangent = new System.Windows.Forms.Button();
+            this.TwoPowerValues = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // Plus
@@ -325,6 +326,16 @@
             this.Tangent.UseVisualStyleBackColor = true;
             this.Tangent.Click += new System.EventHandler(this.Label2_Click);
             // 
+            // TwoPowerValues
+            // 
+            this.TwoPowerValues.Location = new System.Drawing.Point(200, 255);
+            this.TwoPowerValues.Name = "TwoPowerValues";
+            this.TwoPowerValues.Size = new System.Drawing.Size(53, 23);
+            this.TwoPowerValues.TabIndex = 27;
+            this.TwoPowerValues.Text = "2^x";
+            this.TwoPowerValues.UseVisualStyleBackColor = true;
+            this.TwoPowerValues.Click += new System.EventHandler(this.Label2_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -332,6 +343,7 @@
             this.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.ClientSize = new System.Drawing.Size(553, 379);
+            this.Controls.Add(this.TwoPowerValues);
             this.Controls.Add(this.Tangent);
             this.Controls.Add(this.Exponent);
             this.Controls.Add(this.LogOfExp);
@@ -396,6 +408,7 @@
         private System.Windows.Forms.Button LogOfExp;
         private System.Windows.Forms.Button Exponent;
         private System.Windows.Forms.Button Tangent;
+        private System.Windows.Forms.Button TwoPowerValues;
     }
 }
 
