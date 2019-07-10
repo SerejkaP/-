@@ -59,6 +59,7 @@
             this.TwoPowerValues = new System.Windows.Forms.Button();
             this.Log10 = new System.Windows.Forms.Button();
             this.Log2 = new System.Windows.Forms.Button();
+            this.DivisionByArgument = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // Plus
@@ -360,6 +361,16 @@
             this.Log2.UseVisualStyleBackColor = true;
             this.Log2.Click += new System.EventHandler(this.Label2_Click);
             // 
+            // DivisionByArgument
+            // 
+            this.DivisionByArgument.Location = new System.Drawing.Point(85, 249);
+            this.DivisionByArgument.Name = "DivisionByArgument";
+            this.DivisionByArgument.Size = new System.Drawing.Size(39, 21);
+            this.DivisionByArgument.TabIndex = 30;
+            this.DivisionByArgument.Text = "1/x";
+            this.DivisionByArgument.UseVisualStyleBackColor = true;
+            this.DivisionByArgument.Click += new System.EventHandler(this.Label2_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -367,6 +378,7 @@
             this.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.ClientSize = new System.Drawing.Size(624, 337);
+            this.Controls.Add(this.DivisionByArgument);
             this.Controls.Add(this.Log2);
             this.Controls.Add(this.Log10);
             this.Controls.Add(this.TwoPowerValues);
@@ -437,6 +449,6 @@
         private System.Windows.Forms.Button TwoPowerValues;
         private System.Windows.Forms.Button Log10;
         private System.Windows.Forms.Button Log2;
-
+        private System.Windows.Forms.Button DivisionByArgument;
     }
 }

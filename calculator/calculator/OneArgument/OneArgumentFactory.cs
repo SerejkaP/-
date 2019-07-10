@@ -28,6 +28,8 @@ namespace calculator.OneArgument
                     return new LogOfTenCalculator();
                 case "Log2":
                     return new LogOfTwoCalculator();
+                case "DivisionByArgument":
+                    return new DivisionByArgumentCalculator();
                 default:
                     throw new Exception("Неизвестная операция");
             }

@@ -47,6 +47,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="OneArgument\CosinusCalculator.cs" />
+    <Compile Include="OneArgument\DivisionByArgumentCalculator.cs" />
     <Compile Include="OneArgument\Exponent.cs" />
     <Compile Include="OneArgument\LogOfTenCalculator.cs" />
     <Compile Include="OneArgument\LogOfTwoCalculator.cs" />
