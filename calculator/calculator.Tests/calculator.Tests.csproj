@@ -49,8 +49,13 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Class1.cs" />
+    <Compile Include="OneArgument\PowerCalculatorTest.cs" />
+    <Compile Include="OneArgument\SquareRootCalculatorTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="TwoArguments\AdditionCalculatorTest.cs" />
+    <Compile Include="TwoArguments\DivisionCalculatorTest.cs" />
+    <Compile Include="TwoArguments\MultiplyCalculatorTest.cs" />
+    <Compile Include="TwoArguments\SubtractionCalculatorTest.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\calculator\calculator.csproj">
