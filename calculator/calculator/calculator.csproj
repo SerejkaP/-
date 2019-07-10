@@ -50,6 +50,7 @@
     <Compile Include="OneArgument\Exponent.cs" />
     <Compile Include="OneArgument\LogOneArgument.cs" />
     <Compile Include="OneArgument\SinusCalculator.cs" />
+    <Compile Include="OneArgument\TangentCalculator.cs" />
     <Compile Include="TwoArguments\AdditionCalculator.cs" />
     <Compile Include="TwoArguments\Average.cs" />
     <Compile Include="TwoArguments\DivideCalculator.cs" />

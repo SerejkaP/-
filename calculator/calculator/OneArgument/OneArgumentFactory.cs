@@ -20,6 +20,8 @@ namespace calculator.OneArgument
                     return new LogOneArgument();
                 case "Exponent":
                     return new Exponent();
+                case "Tangent":
+                    return new TangentCalculator();
                 default:
                     throw new Exception("Неизвестная операция");
             }
