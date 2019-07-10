@@ -10,10 +10,10 @@ namespace calculator.OneArgument
             {
                 case "Power":
                     return new PowerCalculator();
-
                 case "SquareRoot":
                     return new SquareRootCalculator();
-
+                case "Sinus":
+                    return new SinusCalculator();
                 default:
                     throw new Exception("Неизвестная операция");
             }

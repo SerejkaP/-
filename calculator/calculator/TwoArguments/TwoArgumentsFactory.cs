@@ -32,6 +32,8 @@ namespace calculator.TwoArguments
                     return new GeometricMean();
                 case "Division":
                     return new DivideCalculator();
+                case "Modulo":
+                    return new ModuloCalculator();
                 default:
                     throw new Exception("Неизвестная операция");
             }

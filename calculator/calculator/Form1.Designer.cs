@@ -50,6 +50,8 @@
             this.Average = new System.Windows.Forms.Button();
             this.Geometric = new System.Windows.Forms.Button();
             this.Division = new System.Windows.Forms.Button();
+            this.Modulo = new System.Windows.Forms.Button();
+            this.Sinus = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // Plus
@@ -259,6 +261,26 @@
             this.Division.UseVisualStyleBackColor = true;
             this.Division.Click += new System.EventHandler(this.Label1_Click);
             // 
+            // Modulo
+            // 
+            this.Modulo.Location = new System.Drawing.Point(347, 209);
+            this.Modulo.Name = "Modulo";
+            this.Modulo.Size = new System.Drawing.Size(61, 23);
+            this.Modulo.TabIndex = 21;
+            this.Modulo.Text = "Mod";
+            this.Modulo.UseVisualStyleBackColor = true;
+            this.Modulo.Click += new System.EventHandler(this.Label1_Click);
+            // 
+            // Sinus
+            // 
+            this.Sinus.Location = new System.Drawing.Point(71, 129);
+            this.Sinus.Name = "Sinus";
+            this.Sinus.Size = new System.Drawing.Size(53, 23);
+            this.Sinus.TabIndex = 22;
+            this.Sinus.Text = "Sin";
+            this.Sinus.UseVisualStyleBackColor = true;
+            this.Sinus.Click += new System.EventHandler(this.Label2_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -266,6 +288,8 @@
             this.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.ClientSize = new System.Drawing.Size(553, 379);
+            this.Controls.Add(this.Sinus);
+            this.Controls.Add(this.Modulo);
             this.Controls.Add(this.Division);
             this.Controls.Add(this.Geometric);
             this.Controls.Add(this.Average);
@@ -318,6 +342,8 @@
         private System.Windows.Forms.Button Average;
         private System.Windows.Forms.Button Geometric;
         private System.Windows.Forms.Button Division;
+        private System.Windows.Forms.Button Modulo;
+        private System.Windows.Forms.Button Sinus;
     }
 }
 

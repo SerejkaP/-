@@ -46,6 +46,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="OneArgument\SinusCalculator.cs" />
     <Compile Include="TwoArguments\AdditionCalculator.cs" />
     <Compile Include="TwoArguments\Average.cs" />
     <Compile Include="TwoArguments\DivideCalculator.cs" />
@@ -65,6 +66,7 @@
     <Compile Include="TwoArguments\LogTwoArguments.cs" />
     <Compile Include="TwoArguments\MaxTwoArguments.cs" />
     <Compile Include="TwoArguments\MinTwoArguments.cs" />
+    <Compile Include="TwoArguments\ModuloCalculator.cs" />
     <Compile Include="TwoArguments\MultiplyCalculator.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
