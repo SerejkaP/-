@@ -26,6 +26,10 @@ namespace calculator.OneArgument
                     return new TwoPowerValues();
                 case "Log10":
                     return new LogOfTenCalculator();
+
+
+                case "TenPowerValues":
+                    return new TenPowerValues();
                 default:
                     throw new Exception("Неизвестная операция");
             }
