@@ -2,7 +2,7 @@
 
 namespace calculator.TwoArguments
 {
-    class GeometricMean : ICalculator
+    public class GeometricMean : ICalculator
     {
         public double Calculate(double firstValue, double secondValue)
         {

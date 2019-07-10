@@ -3,7 +3,7 @@
 
 namespace calculator.TwoArguments
 {
-    class MaxTwoArguments:ICalculator
+    public class MaxTwoArguments :ICalculator
     {
         public double Calculate(double firstValue, double secondValue)
         {

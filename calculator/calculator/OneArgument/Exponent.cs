@@ -2,7 +2,7 @@
 
 namespace calculator.OneArgument
 {
-    class Exponent: IOneArgumentCalculator
+    public class Exponent : IOneArgumentCalculator
     {
         public double Calculate(double firstValue)
         {

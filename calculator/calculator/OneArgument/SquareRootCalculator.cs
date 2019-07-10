@@ -2,7 +2,7 @@
 
 namespace calculator.OneArgument
 {
-    class SquareRootCalculator: IOneArgumentCalculator
+    public class SquareRootCalculator : IOneArgumentCalculator
     {
         public double Calculate(double firstValue)
         {

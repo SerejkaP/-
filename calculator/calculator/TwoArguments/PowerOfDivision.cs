@@ -2,7 +2,7 @@
 
 namespace calculator.TwoArguments
 {
-    class PowerOfDivision : ICalculator
+    public class PowerOfDivision : ICalculator
     {
         public double Calculate(double firstValue, double secondValue)
         {

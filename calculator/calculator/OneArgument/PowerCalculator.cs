@@ -1,6 +1,6 @@
 ﻿namespace calculator.OneArgument
 {
-    class PowerCalculator: IOneArgumentCalculator
+    public class PowerCalculator : IOneArgumentCalculator
     {
         public double Calculate(double firstValue)
         {

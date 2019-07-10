@@ -2,7 +2,7 @@
 
 namespace calculator.TwoArguments
 {
-    class LogTwoArguments:ICalculator
+    public class LogTwoArguments :ICalculator
     {
         public double Calculate(double firstValue, double secondValue)
         {

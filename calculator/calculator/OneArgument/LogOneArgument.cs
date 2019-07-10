@@ -2,7 +2,7 @@
 
 namespace calculator.OneArgument
 {
-    class LogOneArgument:IOneArgumentCalculator
+    public class LogOneArgument :IOneArgumentCalculator
     {
         public double Calculate(double firstValue)
         {
