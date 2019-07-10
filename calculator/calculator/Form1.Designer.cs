@@ -75,7 +75,7 @@
             // 
             // Minus
             // 
-            this.Minus.Location = new System.Drawing.Point(259, 122);
+            this.Minus.Location = new System.Drawing.Point(257, 122);
             this.Minus.Name = "Minus";
             this.Minus.Size = new System.Drawing.Size(25, 23);
             this.Minus.TabIndex = 1;
@@ -85,7 +85,7 @@
             // 
             // Multiply
             // 
-            this.Multiply.Location = new System.Drawing.Point(290, 122);
+            this.Multiply.Location = new System.Drawing.Point(288, 122);
             this.Multiply.Name = "Multiply";
             this.Multiply.Size = new System.Drawing.Size(22, 23);
             this.Multiply.TabIndex = 2;
@@ -105,7 +105,7 @@
             // 
             // firstValue
             // 
-            this.firstValue.Location = new System.Drawing.Point(37, 80);
+            this.firstValue.Location = new System.Drawing.Point(35, 82);
             this.firstValue.Multiline = true;
             this.firstValue.Name = "firstValue";
             this.firstValue.Size = new System.Drawing.Size(129, 36);
@@ -113,7 +113,7 @@
             // 
             // secondValue
             // 
-            this.secondValue.Location = new System.Drawing.Point(185, 80);
+            this.secondValue.Location = new System.Drawing.Point(185, 82);
             this.secondValue.Multiline = true;
             this.secondValue.Name = "secondValue";
             this.secondValue.Size = new System.Drawing.Size(127, 36);
@@ -121,7 +121,7 @@
             // 
             // Result
             // 
-            this.Result.Location = new System.Drawing.Point(355, 80);
+            this.Result.Location = new System.Drawing.Point(365, 82);
             this.Result.Multiline = true;
             this.Result.Name = "Result";
             this.Result.Size = new System.Drawing.Size(83, 36);
@@ -131,7 +131,7 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label1.Location = new System.Drawing.Point(323, 88);
+            this.label1.Location = new System.Drawing.Point(338, 82);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(21, 24);
             this.label1.TabIndex = 7;
@@ -141,7 +141,7 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(32, 53);
+            this.label2.Location = new System.Drawing.Point(40, 53);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(95, 13);
             this.label2.TabIndex = 8;
@@ -150,7 +150,7 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(226, 53);
+            this.label3.Location = new System.Drawing.Point(219, 53);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(93, 13);
             this.label3.TabIndex = 9;
@@ -159,7 +159,7 @@
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(352, 53);
+            this.label4.Location = new System.Drawing.Point(389, 53);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(59, 13);
             this.label4.TabIndex = 10;
@@ -167,7 +167,7 @@
             // 
             // SquareRoot
             // 
-            this.SquareRoot.Location = new System.Drawing.Point(38, 131);
+            this.SquareRoot.Location = new System.Drawing.Point(38, 124);
             this.SquareRoot.Name = "SquareRoot";
             this.SquareRoot.Size = new System.Drawing.Size(27, 21);
             this.SquareRoot.TabIndex = 11;
@@ -180,7 +180,7 @@
             this.Power.BackgroundImage = global::calculator.Properties.Resources._57519890e6de315516bbf632;
             this.Power.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.Power.ForeColor = System.Drawing.SystemColors.Control;
-            this.Power.Location = new System.Drawing.Point(37, 158);
+            this.Power.Location = new System.Drawing.Point(46, 158);
             this.Power.Name = "Power";
             this.Power.Size = new System.Drawing.Size(137, 91);
             this.Power.TabIndex = 12;
@@ -240,7 +240,7 @@
             // 
             // Average
             // 
-            this.Average.Location = new System.Drawing.Point(318, 122);
+            this.Average.Location = new System.Drawing.Point(316, 122);
             this.Average.Name = "Average";
             this.Average.Size = new System.Drawing.Size(61, 23);
             this.Average.TabIndex = 18;
@@ -280,7 +280,7 @@
             // 
             // Sinus
             // 
-            this.Sinus.Location = new System.Drawing.Point(71, 129);
+            this.Sinus.Location = new System.Drawing.Point(71, 127);
             this.Sinus.Name = "Sinus";
             this.Sinus.Size = new System.Drawing.Size(53, 23);
             this.Sinus.TabIndex = 22;
@@ -290,7 +290,7 @@
             // 
             // Cosinus
             // 
-            this.Cosinus.Location = new System.Drawing.Point(130, 129);
+            this.Cosinus.Location = new System.Drawing.Point(130, 127);
             this.Cosinus.Name = "Cosinus";
             this.Cosinus.Size = new System.Drawing.Size(53, 23);
             this.Cosinus.TabIndex = 23;
@@ -300,7 +300,7 @@
             // 
             // LogOfExp
             // 
-            this.LogOfExp.Location = new System.Drawing.Point(37, 255);
+            this.LogOfExp.Location = new System.Drawing.Point(37, 257);
             this.LogOfExp.Name = "LogOfExp";
             this.LogOfExp.Size = new System.Drawing.Size(53, 23);
             this.LogOfExp.TabIndex = 24;
@@ -310,7 +310,7 @@
             // 
             // Exponent
             // 
-            this.Exponent.Location = new System.Drawing.Point(96, 255);
+            this.Exponent.Location = new System.Drawing.Point(96, 257);
             this.Exponent.Name = "Exponent";
             this.Exponent.Size = new System.Drawing.Size(39, 21);
             this.Exponent.TabIndex = 25;
@@ -340,7 +340,7 @@
             // 
             // Log10
             // 
-            this.Log10.Location = new System.Drawing.Point(37, 284);
+            this.Log10.Location = new System.Drawing.Point(37, 286);
             this.Log10.Name = "Log10";
             this.Log10.Size = new System.Drawing.Size(53, 23);
             this.Log10.TabIndex = 28;
@@ -351,7 +351,7 @@
             // 
             // Log2
             // 
-            this.Log2.Location = new System.Drawing.Point(37, 313);
+            this.Log2.Location = new System.Drawing.Point(37, 315);
             this.Log2.Name = "Log2";
             this.Log2.Size = new System.Drawing.Size(53, 23);
             this.Log2.TabIndex = 29;
@@ -366,7 +366,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
-            this.ClientSize = new System.Drawing.Size(553, 379);
+            this.ClientSize = new System.Drawing.Size(546, 348);
             this.Controls.Add(this.Log2);
             this.Controls.Add(this.Log10);
             this.Controls.Add(this.TwoPowerValues);
