@@ -30,6 +30,8 @@ namespace calculator.OneArgument
                     return new LogOfTwoCalculator();
                 case "DivisionByArgument":
                     return new DivisionByArgumentCalculator();
+                case "Absolute":
+                    return new AbsoluteCalculator();
                 default:
                     throw new Exception("Неизвестная операция");
             }

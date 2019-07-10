@@ -60,6 +60,7 @@
             this.Log10 = new System.Windows.Forms.Button();
             this.Log2 = new System.Windows.Forms.Button();
             this.DivisionByArgument = new System.Windows.Forms.Button();
+            this.Absolute = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // Plus
@@ -371,13 +372,24 @@
             this.DivisionByArgument.UseVisualStyleBackColor = true;
             this.DivisionByArgument.Click += new System.EventHandler(this.Label2_Click);
             // 
+            // Absolute
+            // 
+            this.Absolute.Location = new System.Drawing.Point(85, 279);
+            this.Absolute.Name = "Absolute";
+            this.Absolute.Size = new System.Drawing.Size(39, 21);
+            this.Absolute.TabIndex = 31;
+            this.Absolute.Text = "|x|";
+            this.Absolute.UseVisualStyleBackColor = true;
+            this.Absolute.Click += new System.EventHandler(this.Label2_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
-            this.ClientSize = new System.Drawing.Size(624, 337);
+            this.ClientSize = new System.Drawing.Size(571, 361);
+            this.Controls.Add(this.Absolute);
             this.Controls.Add(this.DivisionByArgument);
             this.Controls.Add(this.Log2);
             this.Controls.Add(this.Log10);
@@ -450,5 +462,6 @@
         private System.Windows.Forms.Button Log10;
         private System.Windows.Forms.Button Log2;
         private System.Windows.Forms.Button DivisionByArgument;
+        private System.Windows.Forms.Button Absolute;
     }
 }
