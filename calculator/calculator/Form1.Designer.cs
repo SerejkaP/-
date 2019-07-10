@@ -52,6 +52,8 @@
             this.Division = new System.Windows.Forms.Button();
             this.Modulo = new System.Windows.Forms.Button();
             this.Sinus = new System.Windows.Forms.Button();
+            this.Cosinus = new System.Windows.Forms.Button();
+            this.LogOfExp = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // Plus
@@ -281,6 +283,26 @@
             this.Sinus.UseVisualStyleBackColor = true;
             this.Sinus.Click += new System.EventHandler(this.Label2_Click);
             // 
+            // Cosinus
+            // 
+            this.Cosinus.Location = new System.Drawing.Point(130, 129);
+            this.Cosinus.Name = "Cosinus";
+            this.Cosinus.Size = new System.Drawing.Size(53, 23);
+            this.Cosinus.TabIndex = 23;
+            this.Cosinus.Text = "Cos";
+            this.Cosinus.UseVisualStyleBackColor = true;
+            this.Cosinus.Click += new System.EventHandler(this.Label2_Click);
+            // 
+            // LogOfExp
+            // 
+            this.LogOfExp.Location = new System.Drawing.Point(37, 255);
+            this.LogOfExp.Name = "LogOfExp";
+            this.LogOfExp.Size = new System.Drawing.Size(53, 23);
+            this.LogOfExp.TabIndex = 24;
+            this.LogOfExp.Text = "Ln";
+            this.LogOfExp.UseVisualStyleBackColor = true;
+            this.LogOfExp.Click += new System.EventHandler(this.Label2_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -288,6 +310,8 @@
             this.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.ClientSize = new System.Drawing.Size(553, 379);
+            this.Controls.Add(this.LogOfExp);
+            this.Controls.Add(this.Cosinus);
             this.Controls.Add(this.Sinus);
             this.Controls.Add(this.Modulo);
             this.Controls.Add(this.Division);
@@ -344,6 +368,8 @@
         private System.Windows.Forms.Button Division;
         private System.Windows.Forms.Button Modulo;
         private System.Windows.Forms.Button Sinus;
+        private System.Windows.Forms.Button Cosinus;
+        private System.Windows.Forms.Button LogOfExp;
     }
 }
 

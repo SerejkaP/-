@@ -14,6 +14,10 @@ namespace calculator.OneArgument
                     return new SquareRootCalculator();
                 case "Sinus":
                     return new SinusCalculator();
+                case "Cosinus":
+                    return new CosinusCalculator();
+                case "LogOfExp":
+                    return new LogOneArgument();
                 default:
                     throw new Exception("Неизвестная операция");
             }
