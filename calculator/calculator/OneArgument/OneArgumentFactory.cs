@@ -32,6 +32,8 @@ namespace calculator.OneArgument
                     return new DivisionByArgumentCalculator();
                 case "Absolute":
                     return new AbsoluteCalculator();
+                case "Negative":
+                    return new NegativeArgumentCalculator();
                 default:
                     throw new Exception("Неизвестная операция");
             }

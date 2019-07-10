@@ -61,6 +61,7 @@
             this.Log2 = new System.Windows.Forms.Button();
             this.DivisionByArgument = new System.Windows.Forms.Button();
             this.Absolute = new System.Windows.Forms.Button();
+            this.Negative = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // Plus
@@ -332,7 +333,7 @@
             // 
             // TwoPowerValues
             // 
-            this.TwoPowerValues.Location = new System.Drawing.Point(189, 217);
+            this.TwoPowerValues.Location = new System.Drawing.Point(133, 277);
             this.TwoPowerValues.Name = "TwoPowerValues";
             this.TwoPowerValues.Size = new System.Drawing.Size(53, 23);
             this.TwoPowerValues.TabIndex = 27;
@@ -382,6 +383,16 @@
             this.Absolute.UseVisualStyleBackColor = true;
             this.Absolute.Click += new System.EventHandler(this.Label2_Click);
             // 
+            // Negative
+            // 
+            this.Negative.Location = new System.Drawing.Point(133, 249);
+            this.Negative.Name = "Negative";
+            this.Negative.Size = new System.Drawing.Size(39, 21);
+            this.Negative.TabIndex = 32;
+            this.Negative.Text = "-x";
+            this.Negative.UseVisualStyleBackColor = true;
+            this.Negative.Click += new System.EventHandler(this.Label2_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -389,6 +400,7 @@
             this.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.ClientSize = new System.Drawing.Size(571, 361);
+            this.Controls.Add(this.Negative);
             this.Controls.Add(this.Absolute);
             this.Controls.Add(this.DivisionByArgument);
             this.Controls.Add(this.Log2);
@@ -463,5 +475,6 @@
         private System.Windows.Forms.Button Log2;
         private System.Windows.Forms.Button DivisionByArgument;
         private System.Windows.Forms.Button Absolute;
+        private System.Windows.Forms.Button Negative;
     }
 }

@@ -53,6 +53,7 @@
     <Compile Include="OneArgument\LogOfTenCalculator.cs" />
     <Compile Include="OneArgument\LogOfTwoCalculator.cs" />
     <Compile Include="OneArgument\LogOneArgument.cs" />
+    <Compile Include="OneArgument\NegativeArgumentCalculator.cs" />
     <Compile Include="OneArgument\SinusCalculator.cs" />
     <Compile Include="OneArgument\TangentCalculator.cs" />
     <Compile Include="OneArgument\TwoPowerValues.cs" />
