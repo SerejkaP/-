@@ -57,6 +57,7 @@
     <Compile Include="OneArgument\LogOfTenCalculatorTest.cs" />
     <Compile Include="OneArgument\NegativeArgumentCalculatorTest.cs" />
     <Compile Include="OneArgument\PowerCalculatorTest.cs" />
+    <Compile Include="OneArgument\SinusCalculatorTest.cs" />
     <Compile Include="OneArgument\SquareRootCalculatorTest.cs" />
     <Compile Include="OneArgument\TwoPowerValuesTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
