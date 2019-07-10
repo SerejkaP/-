@@ -55,6 +55,7 @@
     <Compile Include="OneArgument\ExponentTest.cs" />
     <Compile Include="OneArgument\LogOfTwoCalculatorTest.cs" />
     <Compile Include="OneArgument\LogOfTenCalculatorTest.cs" />
+    <Compile Include="OneArgument\LogOneArgumentTest.cs" />
     <Compile Include="OneArgument\NegativeArgumentCalculatorTest.cs" />
     <Compile Include="OneArgument\PowerCalculatorTest.cs" />
     <Compile Include="OneArgument\SinusCalculatorTest.cs" />
