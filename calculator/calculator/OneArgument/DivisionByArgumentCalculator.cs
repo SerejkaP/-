@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace calculator.OneArgument
+﻿namespace calculator.OneArgument
 {
     public class DivisionByArgumentCalculator : IOneArgumentCalculator
     {

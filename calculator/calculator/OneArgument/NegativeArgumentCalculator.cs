@@ -1,12 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace calculator.OneArgument
+﻿namespace calculator.OneArgument
 {
-    class NegativeArgumentCalculator : IOneArgumentCalculator
+    public class NegativeArgumentCalculator : IOneArgumentCalculator
     {
         public double Calculate(double firstValue)
         {
