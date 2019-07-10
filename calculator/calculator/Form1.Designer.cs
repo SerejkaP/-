@@ -2,15 +2,15 @@
 {
     partial class Form1
     {
-        /// <summary>
-        /// Обязательная переменная конструктора.
-        /// </summary>
+        /// <summary> 
+        /// Обязательная переменная конструктора. 
+        /// </summary> 
         private System.ComponentModel.IContainer components = null;
 
-        /// <summary>
-        /// Освободить все используемые ресурсы.
-        /// </summary>
-        /// <param name="disposing">истинно, если управляемый ресурс должен быть удален; иначе ложно.</param>
+        /// <summary> 
+        /// Освободить все используемые ресурсы. 
+        /// </summary> 
+        /// <param name="disposing">истинно, если управляемый ресурс должен быть удален; иначе ложно.</param> 
         protected override void Dispose(bool disposing)
         {
             if (disposing && (components != null))
@@ -20,12 +20,12 @@
             base.Dispose(disposing);
         }
 
-        #region Код, автоматически созданный конструктором форм Windows
+        #region Код, автоматически созданный конструктором форм Windows 
 
-        /// <summary>
+        /// <summary> 
         /// Требуемый метод для поддержки конструктора — не изменяйте 
-        /// содержимое этого метода с помощью редактора кода.
-        /// </summary>
+        /// содержимое этого метода с помощью редактора кода. 
+        /// </summary> 
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
@@ -61,7 +61,7 @@
             this.Log2 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // Plus
+            // Plus 
             // 
             this.Plus.Cursor = System.Windows.Forms.Cursors.Default;
             this.Plus.ForeColor = System.Drawing.SystemColors.ControlText;
@@ -73,7 +73,7 @@
             this.Plus.UseVisualStyleBackColor = true;
             this.Plus.Click += new System.EventHandler(this.Label1_Click);
             // 
-            // Minus
+            // Minus 
             // 
             this.Minus.Location = new System.Drawing.Point(257, 122);
             this.Minus.Name = "Minus";
@@ -83,7 +83,7 @@
             this.Minus.UseVisualStyleBackColor = true;
             this.Minus.Click += new System.EventHandler(this.Label1_Click);
             // 
-            // Multiply
+            // Multiply 
             // 
             this.Multiply.Location = new System.Drawing.Point(288, 122);
             this.Multiply.Name = "Multiply";
@@ -93,7 +93,7 @@
             this.Multiply.UseVisualStyleBackColor = true;
             this.Multiply.Click += new System.EventHandler(this.Label1_Click);
             // 
-            // Divide
+            // Divide 
             // 
             this.Divide.Location = new System.Drawing.Point(229, 151);
             this.Divide.Name = "Divide";
@@ -103,15 +103,17 @@
             this.Divide.UseVisualStyleBackColor = true;
             this.Divide.Click += new System.EventHandler(this.Label1_Click);
             // 
-            // firstValue
+            // firstValue 
             // 
             this.firstValue.Location = new System.Drawing.Point(35, 82);
-            this.firstValue.Multiline = true;
+            this.firstValue.Multiline
+
+            = true;
             this.firstValue.Name = "firstValue";
             this.firstValue.Size = new System.Drawing.Size(129, 36);
             this.firstValue.TabIndex = 4;
             // 
-            // secondValue
+            // secondValue 
             // 
             this.secondValue.Location = new System.Drawing.Point(185, 82);
             this.secondValue.Multiline = true;
@@ -119,7 +121,7 @@
             this.secondValue.Size = new System.Drawing.Size(127, 36);
             this.secondValue.TabIndex = 5;
             // 
-            // Result
+            // Result 
             // 
             this.Result.Location = new System.Drawing.Point(365, 82);
             this.Result.Multiline = true;
@@ -127,7 +129,7 @@
             this.Result.Size = new System.Drawing.Size(83, 36);
             this.Result.TabIndex = 6;
             // 
-            // label1
+            // label1 
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
@@ -138,7 +140,7 @@
             this.label1.Text = "=";
             this.label1.Click += new System.EventHandler(this.Label1_Click);
             // 
-            // label2
+            // label2 
             // 
             this.label2.AutoSize = true;
             this.label2.Location = new System.Drawing.Point(40, 53);
@@ -147,7 +149,7 @@
             this.label2.TabIndex = 8;
             this.label2.Text = "Первое значение";
             // 
-            // label3
+            // label3 
             // 
             this.label3.AutoSize = true;
             this.label3.Location = new System.Drawing.Point(219, 53);
@@ -156,7 +158,7 @@
             this.label3.TabIndex = 9;
             this.label3.Text = "Второе значение";
             // 
-            // label4
+            // label4 
             // 
             this.label4.AutoSize = true;
             this.label4.Location = new System.Drawing.Point(389, 53);
@@ -165,7 +167,7 @@
             this.label4.TabIndex = 10;
             this.label4.Text = "Результат";
             // 
-            // SquareRoot
+            // SquareRoot 
             // 
             this.SquareRoot.Location = new System.Drawing.Point(38, 124);
             this.SquareRoot.Name = "SquareRoot";
@@ -175,7 +177,7 @@
             this.SquareRoot.UseVisualStyleBackColor = true;
             this.SquareRoot.Click += new System.EventHandler(this.Label2_Click);
             // 
-            // Power
+            // Power 
             // 
             this.Power.BackgroundImage = global::calculator.Properties.Resources._57519890e6de315516bbf632;
             this.Power.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
@@ -188,7 +190,7 @@
             this.Power.UseVisualStyleBackColor = true;
             this.Power.Click += new System.EventHandler(this.Label2_Click);
             // 
-            // PowerTwoArguments
+            // PowerTwoArguments 
             // 
             this.PowerTwoArguments.Location = new System.Drawing.Point(259, 151);
             this.PowerTwoArguments.Name = "PowerTwoArguments";
@@ -198,7 +200,7 @@
             this.PowerTwoArguments.UseVisualStyleBackColor = true;
             this.PowerTwoArguments.Click += new System.EventHandler(this.Label1_Click);
             // 
-            // PowerOfDivision
+            // PowerOfDivision 
             // 
             this.PowerOfDivision.Location = new System.Drawing.Point(229, 180);
             this.PowerOfDivision.Name = "PowerOfDivision";
@@ -208,7 +210,7 @@
             this.PowerOfDivision.UseVisualStyleBackColor = true;
             this.PowerOfDivision.Click += new System.EventHandler(this.Label1_Click);
             // 
-            // logTwoArguments
+            // logTwoArguments 
             // 
             this.logTwoArguments.Location = new System.Drawing.Point(229, 209);
             this.logTwoArguments.Name = "logTwoArguments";
@@ -216,9 +218,11 @@
             this.logTwoArguments.TabIndex = 15;
             this.logTwoArguments.Text = "LOGx(y)";
             this.logTwoArguments.UseVisualStyleBackColor = true;
-            this.logTwoArguments.Click += new System.EventHandler(this.Label1_Click);
+            this.logTwoArguments.Click += new
+
+            System.EventHandler(this.Label1_Click);
             // 
-            // MIN
+            // MIN 
             // 
             this.MIN.Location = new System.Drawing.Point(288, 180);
             this.MIN.Name = "MIN";
@@ -228,7 +232,7 @@
             this.MIN.UseVisualStyleBackColor = true;
             this.MIN.Click += new System.EventHandler(this.Label1_Click);
             // 
-            // MAX
+            // MAX 
             // 
             this.MAX.Location = new System.Drawing.Point(288, 209);
             this.MAX.Name = "MAX";
@@ -238,7 +242,7 @@
             this.MAX.UseVisualStyleBackColor = true;
             this.MAX.Click += new System.EventHandler(this.Label1_Click);
             // 
-            // Average
+            // Average 
             // 
             this.Average.Location = new System.Drawing.Point(316, 122);
             this.Average.Name = "Average";
@@ -248,7 +252,7 @@
             this.Average.UseVisualStyleBackColor = true;
             this.Average.Click += new System.EventHandler(this.Label1_Click);
             // 
-            // Geometric
+            // Geometric 
             // 
             this.Geometric.Location = new System.Drawing.Point(318, 151);
             this.Geometric.Name = "Geometric";
@@ -258,7 +262,7 @@
             this.Geometric.UseVisualStyleBackColor = true;
             this.Geometric.Click += new System.EventHandler(this.Label1_Click);
             // 
-            // Division
+            // Division 
             // 
             this.Division.Location = new System.Drawing.Point(347, 180);
             this.Division.Name = "Division";
@@ -268,7 +272,7 @@
             this.Division.UseVisualStyleBackColor = true;
             this.Division.Click += new System.EventHandler(this.Label1_Click);
             // 
-            // Modulo
+            // Modulo 
             // 
             this.Modulo.Location = new System.Drawing.Point(347, 209);
             this.Modulo.Name = "Modulo";
@@ -278,7 +282,7 @@
             this.Modulo.UseVisualStyleBackColor = true;
             this.Modulo.Click += new System.EventHandler(this.Label1_Click);
             // 
-            // Sinus
+            // Sinus 
             // 
             this.Sinus.Location = new System.Drawing.Point(71, 127);
             this.Sinus.Name = "Sinus";
@@ -288,7 +292,7 @@
             this.Sinus.UseVisualStyleBackColor = true;
             this.Sinus.Click += new System.EventHandler(this.Label2_Click);
             // 
-            // Cosinus
+            // Cosinus 
             // 
             this.Cosinus.Location = new System.Drawing.Point(130, 127);
             this.Cosinus.Name = "Cosinus";
@@ -298,7 +302,7 @@
             this.Cosinus.UseVisualStyleBackColor = true;
             this.Cosinus.Click += new System.EventHandler(this.Label2_Click);
             // 
-            // LogOfExp
+            // LogOfExp 
             // 
             this.LogOfExp.Location = new System.Drawing.Point(37, 257);
             this.LogOfExp.Name = "LogOfExp";
@@ -308,7 +312,7 @@
             this.LogOfExp.UseVisualStyleBackColor = true;
             this.LogOfExp.Click += new System.EventHandler(this.Label2_Click);
             // 
-            // Exponent
+            // Exponent 
             // 
             this.Exponent.Location = new System.Drawing.Point(96, 257);
             this.Exponent.Name = "Exponent";
@@ -318,7 +322,7 @@
             this.Exponent.UseVisualStyleBackColor = true;
             this.Exponent.Click += new System.EventHandler(this.Label2_Click);
             // 
-            // Tangent
+            // Tangent 
             // 
             this.Tangent.Location = new System.Drawing.Point(141, 255);
             this.Tangent.Name = "Tangent";
@@ -328,17 +332,18 @@
             this.Tangent.UseVisualStyleBackColor = true;
             this.Tangent.Click += new System.EventHandler(this.Label2_Click);
             // 
-            // TwoPowerValues
+            // TwoPowerValues 
             // 
             this.TwoPowerValues.Location = new System.Drawing.Point(200, 255);
             this.TwoPowerValues.Name = "TwoPowerValues";
             this.TwoPowerValues.Size = new System.Drawing.Size(53, 23);
             this.TwoPowerValues.TabIndex = 27;
             this.TwoPowerValues.Text = "2^x";
+
             this.TwoPowerValues.UseVisualStyleBackColor = true;
             this.TwoPowerValues.Click += new System.EventHandler(this.Label2_Click);
             // 
-            // Log10
+            // Log10 
             // 
             this.Log10.Location = new System.Drawing.Point(37, 286);
             this.Log10.Name = "Log10";
@@ -349,7 +354,7 @@
             this.Log10.UseVisualStyleBackColor = true;
             this.Log10.Click += new System.EventHandler(this.Label2_Click);
             // 
-            // Log2
+            // Log2 
             // 
             this.Log2.Location = new System.Drawing.Point(37, 315);
             this.Log2.Name = "Log2";
@@ -360,7 +365,7 @@
             this.Log2.UseVisualStyleBackColor = true;
             this.Log2.Click += new System.EventHandler(this.Label2_Click);
             // 
-            // Form1
+            // Form1 
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -439,4 +444,3 @@
         private System.Windows.Forms.Button Log2;
     }
 }
-
