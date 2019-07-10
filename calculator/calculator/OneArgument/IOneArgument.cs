@@ -4,9 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace calculator.forOneArgument
+namespace calculator.OneArgument
 {
-    interface IForAOneArgument
+    public interface IOneArgument
     {
+        double Calculate(double firstValue);
     }
 }

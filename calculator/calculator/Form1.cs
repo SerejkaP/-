@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using calculator.OneArgument;
 
 namespace calculator
 {
@@ -23,9 +24,16 @@ namespace calculator
             double seconddValue = Convert.ToDouble(secondValue.Text);
             ICalculator calculator = TwoArgumentsFactory.CreateCalculator(((Button)sender).Name);
             double result = calculator.Calculate(firsrValue, seconddValue);
-
-
             Result.Text = result.ToString();
         }
+
+        private void Label2_Click(object sender, EventArgs e)
+        {
+            double firsrValue = Convert.ToDouble(firstValue.Text);
+            IOneArgument calculator = OneArgumentFactory.CreateCalculator(((Button) sender).Name);
+            double result = calculator.Calculate(firsrValue);
+            Result.Text = result.ToString();
+        }
+        
     }
 }

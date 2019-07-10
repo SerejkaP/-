@@ -54,7 +54,11 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
-    <Compile Include="Interface1.cs" />
+    <Compile Include="OneArgument\IOneArgument.cs" />
+    <Compile Include="OneArgument\OneArgumentFactory.cs" />
+    <Compile Include="OneArgument\PowerCalculator.cs" />
+    <Compile Include="OneArgument\SquareRootCalculator.cs" />
+    <Compile Include="ICalculator.cs" />
     <Compile Include="MultiplyCalculator.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -85,5 +89,6 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -39,6 +39,8 @@
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
+            this.SquareRoot = new System.Windows.Forms.Button();
+            this.Power = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // Plus
@@ -145,12 +147,34 @@
             this.label4.TabIndex = 10;
             this.label4.Text = "Результат";
             // 
+            // SquareRoot
+            // 
+            this.SquareRoot.Location = new System.Drawing.Point(38, 131);
+            this.SquareRoot.Name = "SquareRoot";
+            this.SquareRoot.Size = new System.Drawing.Size(27, 21);
+            this.SquareRoot.TabIndex = 11;
+            this.SquareRoot.Text = "√";
+            this.SquareRoot.UseVisualStyleBackColor = true;
+            this.SquareRoot.Click += new System.EventHandler(this.Label2_Click);
+            // 
+            // Power
+            // 
+            this.Power.Location = new System.Drawing.Point(71, 132);
+            this.Power.Name = "Power";
+            this.Power.Size = new System.Drawing.Size(41, 21);
+            this.Power.TabIndex = 12;
+            this.Power.Text = "x^2";
+            this.Power.UseVisualStyleBackColor = true;
+            this.Power.Click += new System.EventHandler(this.Label2_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.ClientSize = new System.Drawing.Size(527, 216);
+            this.ClientSize = new System.Drawing.Size(527, 291);
+            this.Controls.Add(this.Power);
+            this.Controls.Add(this.SquareRoot);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
@@ -182,6 +206,8 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Button SquareRoot;
+        private System.Windows.Forms.Button Power;
     }
 }
 
