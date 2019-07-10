@@ -54,6 +54,7 @@
             this.Sinus = new System.Windows.Forms.Button();
             this.Cosinus = new System.Windows.Forms.Button();
             this.LogOfExp = new System.Windows.Forms.Button();
+            this.Exponent = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // Plus
@@ -303,6 +304,16 @@
             this.LogOfExp.UseVisualStyleBackColor = true;
             this.LogOfExp.Click += new System.EventHandler(this.Label2_Click);
             // 
+            // Exponent
+            // 
+            this.Exponent.Location = new System.Drawing.Point(96, 255);
+            this.Exponent.Name = "Exponent";
+            this.Exponent.Size = new System.Drawing.Size(39, 21);
+            this.Exponent.TabIndex = 25;
+            this.Exponent.Text = "e^x";
+            this.Exponent.UseVisualStyleBackColor = true;
+            this.Exponent.Click += new System.EventHandler(this.Label2_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -310,6 +321,7 @@
             this.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.ClientSize = new System.Drawing.Size(553, 379);
+            this.Controls.Add(this.Exponent);
             this.Controls.Add(this.LogOfExp);
             this.Controls.Add(this.Cosinus);
             this.Controls.Add(this.Sinus);
@@ -370,6 +382,7 @@
         private System.Windows.Forms.Button Sinus;
         private System.Windows.Forms.Button Cosinus;
         private System.Windows.Forms.Button LogOfExp;
+        private System.Windows.Forms.Button Exponent;
     }
 }
 
