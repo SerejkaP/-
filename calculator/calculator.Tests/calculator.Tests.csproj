@@ -52,6 +52,7 @@
     <Compile Include="OneArgument\AbsoluteCalculatorTest.cs" />
     <Compile Include="OneArgument\CosinusCalculatorTest.cs" />
     <Compile Include="OneArgument\DivisionByArgumentCalculatorTest.cs" />
+    <Compile Include="OneArgument\ExponentTest.cs" />
     <Compile Include="OneArgument\NegativeArgumentCalculatorTest.cs" />
     <Compile Include="OneArgument\PowerCalculatorTest.cs" />
     <Compile Include="OneArgument\SquareRootCalculatorTest.cs" />
