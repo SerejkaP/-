@@ -57,6 +57,7 @@
             this.Exponent = new System.Windows.Forms.Button();
             this.Tangent = new System.Windows.Forms.Button();
             this.TwoPowerValues = new System.Windows.Forms.Button();
+            this.Log10 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // Plus
@@ -336,6 +337,17 @@
             this.TwoPowerValues.UseVisualStyleBackColor = true;
             this.TwoPowerValues.Click += new System.EventHandler(this.Label2_Click);
             // 
+            // Log10
+            // 
+            this.Log10.Location = new System.Drawing.Point(37, 284);
+            this.Log10.Name = "Log10";
+            this.Log10.Size = new System.Drawing.Size(53, 23);
+            this.Log10.TabIndex = 28;
+            this.Log10.Text = "Log10";
+            this.Log10.TextImageRelation = System.Windows.Forms.TextImageRelation.TextAboveImage;
+            this.Log10.UseVisualStyleBackColor = true;
+            this.Log10.Click += new System.EventHandler(this.Label2_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -343,6 +355,7 @@
             this.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.ClientSize = new System.Drawing.Size(553, 379);
+            this.Controls.Add(this.Log10);
             this.Controls.Add(this.TwoPowerValues);
             this.Controls.Add(this.Tangent);
             this.Controls.Add(this.Exponent);
@@ -409,6 +422,7 @@
         private System.Windows.Forms.Button Exponent;
         private System.Windows.Forms.Button Tangent;
         private System.Windows.Forms.Button TwoPowerValues;
+        private System.Windows.Forms.Button Log10;
     }
 }
 
