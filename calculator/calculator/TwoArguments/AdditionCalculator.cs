@@ -1,6 +1,6 @@
 ﻿namespace calculator.TwoArguments
 {
-    class AdditionCalculator:ICalculator
+   public  class AdditionCalculator:ICalculator
     {
         public double Calculate(double firstValue, double secondValue)
         {
