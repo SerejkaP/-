@@ -64,6 +64,7 @@
     <Compile Include="TwoArguments\MinTwoArgumentsTest.cs" />
     <Compile Include="TwoArguments\ModuloCalculatorTest.cs" />
     <Compile Include="TwoArguments\MultiplyCalculatorTest.cs" />
+    <Compile Include="TwoArguments\PowerOfDivisionTest.cs" />
     <Compile Include="TwoArguments\SubtractionCalculatorTest.cs" />
   </ItemGroup>
   <ItemGroup>
