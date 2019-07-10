@@ -2,7 +2,7 @@
 
 namespace calculator.OneArgument
 {
-    class TangentCalculator : IOneArgumentCalculator
+    public class TangentCalculator : IOneArgumentCalculator
     {
         public double Calculate(double firstValue)
         {
