@@ -21,7 +21,9 @@ namespace calculator.TwoArguments
                 case "PowerOfDivision":
                     return new PowerOfDivision();
                 case "logTwoArguments":
-                    return new logTwoArguments();
+                    return new LogTwoArguments();
+                case "MIN":
+                    return new MinTwoArguments();
                 default:
                     throw new Exception("Неизвестная операция");
             }

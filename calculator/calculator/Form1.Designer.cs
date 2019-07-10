@@ -45,6 +45,7 @@
             this.PowerTwoArguments = new System.Windows.Forms.Button();
             this.PowerOfDivision = new System.Windows.Forms.Button();
             this.logTwoArguments = new System.Windows.Forms.Button();
+            this.MIN = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // Plus
@@ -204,6 +205,16 @@
             this.logTwoArguments.UseVisualStyleBackColor = true;
             this.logTwoArguments.Click += new System.EventHandler(this.Label1_Click);
             // 
+            // MIN
+            // 
+            this.MIN.Location = new System.Drawing.Point(288, 180);
+            this.MIN.Name = "MIN";
+            this.MIN.Size = new System.Drawing.Size(53, 23);
+            this.MIN.TabIndex = 16;
+            this.MIN.Text = "Min";
+            this.MIN.UseVisualStyleBackColor = true;
+            this.MIN.Click += new System.EventHandler(this.Label1_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -211,6 +222,7 @@
             this.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.ClientSize = new System.Drawing.Size(553, 379);
+            this.Controls.Add(this.MIN);
             this.Controls.Add(this.logTwoArguments);
             this.Controls.Add(this.PowerOfDivision);
             this.Controls.Add(this.PowerTwoArguments);
@@ -253,6 +265,7 @@
         private System.Windows.Forms.Button PowerTwoArguments;
         private System.Windows.Forms.Button PowerOfDivision;
         private System.Windows.Forms.Button logTwoArguments;
+        private System.Windows.Forms.Button MIN;
     }
 }
 

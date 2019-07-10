@@ -59,7 +59,8 @@
     <Compile Include="OneArgument\PowerCalculator.cs" />
     <Compile Include="OneArgument\SquareRootCalculator.cs" />
     <Compile Include="TwoArguments\ICalculator.cs" />
-    <Compile Include="TwoArguments\logTwoArguments.cs" />
+    <Compile Include="TwoArguments\LogTwoArguments.cs" />
+    <Compile Include="TwoArguments\MinTwoArguments.cs" />
     <Compile Include="TwoArguments\MultiplyCalculator.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

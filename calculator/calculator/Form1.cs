@@ -28,6 +28,5 @@ namespace calculator
             double result = calculator.Calculate(firstArgument);
             Result.Text = result.ToString();
         }
-        
     }
 }
