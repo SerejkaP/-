@@ -47,6 +47,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="TwoArguments\AdditionCalculator.cs" />
+    <Compile Include="TwoArguments\Average.cs" />
     <Compile Include="TwoArguments\DivisionCalculator.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>

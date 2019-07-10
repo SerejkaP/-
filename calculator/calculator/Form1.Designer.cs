@@ -47,6 +47,7 @@
             this.logTwoArguments = new System.Windows.Forms.Button();
             this.MIN = new System.Windows.Forms.Button();
             this.MAX = new System.Windows.Forms.Button();
+            this.Average = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // Plus
@@ -226,6 +227,16 @@
             this.MAX.UseVisualStyleBackColor = true;
             this.MAX.Click += new System.EventHandler(this.Label1_Click);
             // 
+            // Average
+            // 
+            this.Average.Location = new System.Drawing.Point(318, 122);
+            this.Average.Name = "Average";
+            this.Average.Size = new System.Drawing.Size(61, 23);
+            this.Average.TabIndex = 18;
+            this.Average.Text = "Ср.ариф";
+            this.Average.UseVisualStyleBackColor = true;
+            this.Average.Click += new System.EventHandler(this.Label1_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -233,6 +244,7 @@
             this.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.ClientSize = new System.Drawing.Size(553, 379);
+            this.Controls.Add(this.Average);
             this.Controls.Add(this.MAX);
             this.Controls.Add(this.MIN);
             this.Controls.Add(this.logTwoArguments);
@@ -279,6 +291,7 @@
         private System.Windows.Forms.Button logTwoArguments;
         private System.Windows.Forms.Button MIN;
         private System.Windows.Forms.Button MAX;
+        private System.Windows.Forms.Button Average;
     }
 }
 
