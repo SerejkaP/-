@@ -24,6 +24,8 @@ namespace calculator.OneArgument
                     return new TangentCalculator();
                 case "TwoPowerValues":
                     return new TwoPowerValues();
+                case "Log10":
+                    return new LogOfTenCalculator();
                 default:
                     throw new Exception("Неизвестная операция");
             }
