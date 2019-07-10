@@ -1,7 +1,4 @@
-﻿using System;
-
-
-namespace calculator.TwoArguments
+﻿namespace calculator.TwoArguments
 {
     class Average: ICalculator
     {
