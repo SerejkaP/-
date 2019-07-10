@@ -26,6 +26,8 @@ namespace calculator.OneArgument
                     return new TwoPowerValues();
                 case "Log10":
                     return new LogOfTenCalculator();
+                case "TenPowerValues":
+                    return new TenPowerValues();
                 case "Log2":
                     return new LogOfTwoCalculator();
                 default:
