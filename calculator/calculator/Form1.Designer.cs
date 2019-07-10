@@ -2,10 +2,17 @@
 {
     partial class Form1
     {
+<<<<<<< HEAD
         /// <summary> 
         /// Обязательная переменная конструктора. 
         /// </summary> 
         private System.ComponentModel.IContainer components = null;
+=======
+        /// <summary>
+        /// Обязательная переменная конструктора.
+        /// </summary>
+        private System.ComponentModel.IContainer components = null; 
+>>>>>>> 0ec08c3573ccf72162c647c5aefae12fb8570fb4
 
         /// <summary> 
         /// Освободить все используемые ресурсы. 
@@ -20,6 +27,7 @@
             base.Dispose(disposing);
         }
 
+<<<<<<< HEAD
         #region Код, автоматически созданный конструктором форм Windows 
 
         /// <summary> 
@@ -411,6 +419,8 @@
         }
 
         #endregion
+=======
+>>>>>>> 0ec08c3573ccf72162c647c5aefae12fb8570fb4
 
         private System.Windows.Forms.Button Plus;
         private System.Windows.Forms.Button Minus;
@@ -441,6 +451,8 @@
         private System.Windows.Forms.Button Tangent;
         private System.Windows.Forms.Button TwoPowerValues;
         private System.Windows.Forms.Button Log10;
+        private System.Windows.Forms.Button TenPowerValues;
         private System.Windows.Forms.Button Log2;
+
     }
 }
