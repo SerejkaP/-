@@ -30,6 +30,8 @@ namespace calculator.TwoArguments
                     return new Average();
                 case "Geometric":
                     return new GeometricMean();
+                case "Division":
+                    return new DivideCalculator();
                 default:
                     throw new Exception("Неизвестная операция");
             }

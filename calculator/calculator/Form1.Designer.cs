@@ -49,6 +49,7 @@
             this.MAX = new System.Windows.Forms.Button();
             this.Average = new System.Windows.Forms.Button();
             this.Geometric = new System.Windows.Forms.Button();
+            this.Division = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // Plus
@@ -248,6 +249,16 @@
             this.Geometric.UseVisualStyleBackColor = true;
             this.Geometric.Click += new System.EventHandler(this.Label1_Click);
             // 
+            // Division
+            // 
+            this.Division.Location = new System.Drawing.Point(347, 180);
+            this.Division.Name = "Division";
+            this.Division.Size = new System.Drawing.Size(61, 23);
+            this.Division.TabIndex = 20;
+            this.Division.Text = "Div";
+            this.Division.UseVisualStyleBackColor = true;
+            this.Division.Click += new System.EventHandler(this.Label1_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -255,6 +266,7 @@
             this.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.ClientSize = new System.Drawing.Size(553, 379);
+            this.Controls.Add(this.Division);
             this.Controls.Add(this.Geometric);
             this.Controls.Add(this.Average);
             this.Controls.Add(this.MAX);
@@ -305,6 +317,7 @@
         private System.Windows.Forms.Button MAX;
         private System.Windows.Forms.Button Average;
         private System.Windows.Forms.Button Geometric;
+        private System.Windows.Forms.Button Division;
     }
 }
 
