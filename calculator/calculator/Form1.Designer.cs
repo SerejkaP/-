@@ -2,17 +2,10 @@
 {
     partial class Form1
     {
-<<<<<<< HEAD
         /// <summary> 
         /// Обязательная переменная конструктора. 
         /// </summary> 
         private System.ComponentModel.IContainer components = null;
-=======
-        /// <summary>
-        /// Обязательная переменная конструктора.
-        /// </summary>
-        private System.ComponentModel.IContainer components = null; 
->>>>>>> 0ec08c3573ccf72162c647c5aefae12fb8570fb4
 
         /// <summary> 
         /// Освободить все используемые ресурсы. 
@@ -27,7 +20,6 @@
             base.Dispose(disposing);
         }
 
-<<<<<<< HEAD
         #region Код, автоматически созданный конструктором форм Windows 
 
         /// <summary> 
@@ -69,11 +61,11 @@
             this.Log2 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // Plus 
+            // Plus
             // 
             this.Plus.Cursor = System.Windows.Forms.Cursors.Default;
             this.Plus.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.Plus.Location = new System.Drawing.Point(229, 122);
+            this.Plus.Location = new System.Drawing.Point(218, 84);
             this.Plus.Name = "Plus";
             this.Plus.Size = new System.Drawing.Size(24, 23);
             this.Plus.TabIndex = 0;
@@ -81,9 +73,9 @@
             this.Plus.UseVisualStyleBackColor = true;
             this.Plus.Click += new System.EventHandler(this.Label1_Click);
             // 
-            // Minus 
+            // Minus
             // 
-            this.Minus.Location = new System.Drawing.Point(257, 122);
+            this.Minus.Location = new System.Drawing.Point(246, 84);
             this.Minus.Name = "Minus";
             this.Minus.Size = new System.Drawing.Size(25, 23);
             this.Minus.TabIndex = 1;
@@ -91,9 +83,9 @@
             this.Minus.UseVisualStyleBackColor = true;
             this.Minus.Click += new System.EventHandler(this.Label1_Click);
             // 
-            // Multiply 
+            // Multiply
             // 
-            this.Multiply.Location = new System.Drawing.Point(288, 122);
+            this.Multiply.Location = new System.Drawing.Point(277, 84);
             this.Multiply.Name = "Multiply";
             this.Multiply.Size = new System.Drawing.Size(22, 23);
             this.Multiply.TabIndex = 2;
@@ -101,9 +93,9 @@
             this.Multiply.UseVisualStyleBackColor = true;
             this.Multiply.Click += new System.EventHandler(this.Label1_Click);
             // 
-            // Divide 
+            // Divide
             // 
-            this.Divide.Location = new System.Drawing.Point(229, 151);
+            this.Divide.Location = new System.Drawing.Point(218, 113);
             this.Divide.Name = "Divide";
             this.Divide.Size = new System.Drawing.Size(24, 23);
             this.Divide.TabIndex = 3;
@@ -111,73 +103,71 @@
             this.Divide.UseVisualStyleBackColor = true;
             this.Divide.Click += new System.EventHandler(this.Label1_Click);
             // 
-            // firstValue 
+            // firstValue
             // 
-            this.firstValue.Location = new System.Drawing.Point(35, 82);
-            this.firstValue.Multiline
-
-            = true;
+            this.firstValue.Location = new System.Drawing.Point(24, 44);
+            this.firstValue.Multiline = true;
             this.firstValue.Name = "firstValue";
             this.firstValue.Size = new System.Drawing.Size(129, 36);
             this.firstValue.TabIndex = 4;
             // 
-            // secondValue 
+            // secondValue
             // 
-            this.secondValue.Location = new System.Drawing.Point(185, 82);
+            this.secondValue.Location = new System.Drawing.Point(174, 44);
             this.secondValue.Multiline = true;
             this.secondValue.Name = "secondValue";
             this.secondValue.Size = new System.Drawing.Size(127, 36);
             this.secondValue.TabIndex = 5;
             // 
-            // Result 
+            // Result
             // 
-            this.Result.Location = new System.Drawing.Point(365, 82);
+            this.Result.Location = new System.Drawing.Point(354, 44);
             this.Result.Multiline = true;
             this.Result.Name = "Result";
             this.Result.Size = new System.Drawing.Size(83, 36);
             this.Result.TabIndex = 6;
             // 
-            // label1 
+            // label1
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label1.Location = new System.Drawing.Point(338, 82);
+            this.label1.Location = new System.Drawing.Point(327, 44);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(21, 24);
             this.label1.TabIndex = 7;
             this.label1.Text = "=";
             this.label1.Click += new System.EventHandler(this.Label1_Click);
             // 
-            // label2 
+            // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(40, 53);
+            this.label2.Location = new System.Drawing.Point(29, 15);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(95, 13);
             this.label2.TabIndex = 8;
             this.label2.Text = "Первое значение";
             // 
-            // label3 
+            // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(219, 53);
+            this.label3.Location = new System.Drawing.Point(208, 15);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(93, 13);
             this.label3.TabIndex = 9;
             this.label3.Text = "Второе значение";
             // 
-            // label4 
+            // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(389, 53);
+            this.label4.Location = new System.Drawing.Point(378, 15);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(59, 13);
             this.label4.TabIndex = 10;
             this.label4.Text = "Результат";
             // 
-            // SquareRoot 
+            // SquareRoot
             // 
-            this.SquareRoot.Location = new System.Drawing.Point(38, 124);
+            this.SquareRoot.Location = new System.Drawing.Point(27, 86);
             this.SquareRoot.Name = "SquareRoot";
             this.SquareRoot.Size = new System.Drawing.Size(27, 21);
             this.SquareRoot.TabIndex = 11;
@@ -185,12 +175,12 @@
             this.SquareRoot.UseVisualStyleBackColor = true;
             this.SquareRoot.Click += new System.EventHandler(this.Label2_Click);
             // 
-            // Power 
+            // Power
             // 
             this.Power.BackgroundImage = global::calculator.Properties.Resources._57519890e6de315516bbf632;
             this.Power.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.Power.ForeColor = System.Drawing.SystemColors.Control;
-            this.Power.Location = new System.Drawing.Point(46, 158);
+            this.Power.Location = new System.Drawing.Point(35, 120);
             this.Power.Name = "Power";
             this.Power.Size = new System.Drawing.Size(137, 91);
             this.Power.TabIndex = 12;
@@ -198,9 +188,9 @@
             this.Power.UseVisualStyleBackColor = true;
             this.Power.Click += new System.EventHandler(this.Label2_Click);
             // 
-            // PowerTwoArguments 
+            // PowerTwoArguments
             // 
-            this.PowerTwoArguments.Location = new System.Drawing.Point(259, 151);
+            this.PowerTwoArguments.Location = new System.Drawing.Point(248, 113);
             this.PowerTwoArguments.Name = "PowerTwoArguments";
             this.PowerTwoArguments.Size = new System.Drawing.Size(53, 23);
             this.PowerTwoArguments.TabIndex = 13;
@@ -208,9 +198,9 @@
             this.PowerTwoArguments.UseVisualStyleBackColor = true;
             this.PowerTwoArguments.Click += new System.EventHandler(this.Label1_Click);
             // 
-            // PowerOfDivision 
+            // PowerOfDivision
             // 
-            this.PowerOfDivision.Location = new System.Drawing.Point(229, 180);
+            this.PowerOfDivision.Location = new System.Drawing.Point(218, 142);
             this.PowerOfDivision.Name = "PowerOfDivision";
             this.PowerOfDivision.Size = new System.Drawing.Size(53, 23);
             this.PowerOfDivision.TabIndex = 14;
@@ -218,21 +208,19 @@
             this.PowerOfDivision.UseVisualStyleBackColor = true;
             this.PowerOfDivision.Click += new System.EventHandler(this.Label1_Click);
             // 
-            // logTwoArguments 
+            // logTwoArguments
             // 
-            this.logTwoArguments.Location = new System.Drawing.Point(229, 209);
+            this.logTwoArguments.Location = new System.Drawing.Point(218, 171);
             this.logTwoArguments.Name = "logTwoArguments";
             this.logTwoArguments.Size = new System.Drawing.Size(53, 23);
             this.logTwoArguments.TabIndex = 15;
             this.logTwoArguments.Text = "LOGx(y)";
             this.logTwoArguments.UseVisualStyleBackColor = true;
-            this.logTwoArguments.Click += new
-
-            System.EventHandler(this.Label1_Click);
+            this.logTwoArguments.Click += new System.EventHandler(this.Label1_Click);
             // 
-            // MIN 
+            // MIN
             // 
-            this.MIN.Location = new System.Drawing.Point(288, 180);
+            this.MIN.Location = new System.Drawing.Point(277, 142);
             this.MIN.Name = "MIN";
             this.MIN.Size = new System.Drawing.Size(53, 23);
             this.MIN.TabIndex = 16;
@@ -240,9 +228,9 @@
             this.MIN.UseVisualStyleBackColor = true;
             this.MIN.Click += new System.EventHandler(this.Label1_Click);
             // 
-            // MAX 
+            // MAX
             // 
-            this.MAX.Location = new System.Drawing.Point(288, 209);
+            this.MAX.Location = new System.Drawing.Point(277, 171);
             this.MAX.Name = "MAX";
             this.MAX.Size = new System.Drawing.Size(53, 23);
             this.MAX.TabIndex = 17;
@@ -250,9 +238,9 @@
             this.MAX.UseVisualStyleBackColor = true;
             this.MAX.Click += new System.EventHandler(this.Label1_Click);
             // 
-            // Average 
+            // Average
             // 
-            this.Average.Location = new System.Drawing.Point(316, 122);
+            this.Average.Location = new System.Drawing.Point(305, 84);
             this.Average.Name = "Average";
             this.Average.Size = new System.Drawing.Size(61, 23);
             this.Average.TabIndex = 18;
@@ -260,9 +248,9 @@
             this.Average.UseVisualStyleBackColor = true;
             this.Average.Click += new System.EventHandler(this.Label1_Click);
             // 
-            // Geometric 
+            // Geometric
             // 
-            this.Geometric.Location = new System.Drawing.Point(318, 151);
+            this.Geometric.Location = new System.Drawing.Point(307, 113);
             this.Geometric.Name = "Geometric";
             this.Geometric.Size = new System.Drawing.Size(61, 23);
             this.Geometric.TabIndex = 19;
@@ -270,9 +258,9 @@
             this.Geometric.UseVisualStyleBackColor = true;
             this.Geometric.Click += new System.EventHandler(this.Label1_Click);
             // 
-            // Division 
+            // Division
             // 
-            this.Division.Location = new System.Drawing.Point(347, 180);
+            this.Division.Location = new System.Drawing.Point(336, 142);
             this.Division.Name = "Division";
             this.Division.Size = new System.Drawing.Size(61, 23);
             this.Division.TabIndex = 20;
@@ -280,9 +268,9 @@
             this.Division.UseVisualStyleBackColor = true;
             this.Division.Click += new System.EventHandler(this.Label1_Click);
             // 
-            // Modulo 
+            // Modulo
             // 
-            this.Modulo.Location = new System.Drawing.Point(347, 209);
+            this.Modulo.Location = new System.Drawing.Point(336, 171);
             this.Modulo.Name = "Modulo";
             this.Modulo.Size = new System.Drawing.Size(61, 23);
             this.Modulo.TabIndex = 21;
@@ -290,9 +278,9 @@
             this.Modulo.UseVisualStyleBackColor = true;
             this.Modulo.Click += new System.EventHandler(this.Label1_Click);
             // 
-            // Sinus 
+            // Sinus
             // 
-            this.Sinus.Location = new System.Drawing.Point(71, 127);
+            this.Sinus.Location = new System.Drawing.Point(60, 89);
             this.Sinus.Name = "Sinus";
             this.Sinus.Size = new System.Drawing.Size(53, 23);
             this.Sinus.TabIndex = 22;
@@ -300,9 +288,9 @@
             this.Sinus.UseVisualStyleBackColor = true;
             this.Sinus.Click += new System.EventHandler(this.Label2_Click);
             // 
-            // Cosinus 
+            // Cosinus
             // 
-            this.Cosinus.Location = new System.Drawing.Point(130, 127);
+            this.Cosinus.Location = new System.Drawing.Point(119, 89);
             this.Cosinus.Name = "Cosinus";
             this.Cosinus.Size = new System.Drawing.Size(53, 23);
             this.Cosinus.TabIndex = 23;
@@ -310,9 +298,9 @@
             this.Cosinus.UseVisualStyleBackColor = true;
             this.Cosinus.Click += new System.EventHandler(this.Label2_Click);
             // 
-            // LogOfExp 
+            // LogOfExp
             // 
-            this.LogOfExp.Location = new System.Drawing.Point(37, 257);
+            this.LogOfExp.Location = new System.Drawing.Point(26, 219);
             this.LogOfExp.Name = "LogOfExp";
             this.LogOfExp.Size = new System.Drawing.Size(53, 23);
             this.LogOfExp.TabIndex = 24;
@@ -320,9 +308,9 @@
             this.LogOfExp.UseVisualStyleBackColor = true;
             this.LogOfExp.Click += new System.EventHandler(this.Label2_Click);
             // 
-            // Exponent 
+            // Exponent
             // 
-            this.Exponent.Location = new System.Drawing.Point(96, 257);
+            this.Exponent.Location = new System.Drawing.Point(85, 219);
             this.Exponent.Name = "Exponent";
             this.Exponent.Size = new System.Drawing.Size(39, 21);
             this.Exponent.TabIndex = 25;
@@ -330,9 +318,9 @@
             this.Exponent.UseVisualStyleBackColor = true;
             this.Exponent.Click += new System.EventHandler(this.Label2_Click);
             // 
-            // Tangent 
+            // Tangent
             // 
-            this.Tangent.Location = new System.Drawing.Point(141, 255);
+            this.Tangent.Location = new System.Drawing.Point(130, 217);
             this.Tangent.Name = "Tangent";
             this.Tangent.Size = new System.Drawing.Size(53, 23);
             this.Tangent.TabIndex = 26;
@@ -340,20 +328,19 @@
             this.Tangent.UseVisualStyleBackColor = true;
             this.Tangent.Click += new System.EventHandler(this.Label2_Click);
             // 
-            // TwoPowerValues 
+            // TwoPowerValues
             // 
-            this.TwoPowerValues.Location = new System.Drawing.Point(200, 255);
+            this.TwoPowerValues.Location = new System.Drawing.Point(189, 217);
             this.TwoPowerValues.Name = "TwoPowerValues";
             this.TwoPowerValues.Size = new System.Drawing.Size(53, 23);
             this.TwoPowerValues.TabIndex = 27;
             this.TwoPowerValues.Text = "2^x";
-
             this.TwoPowerValues.UseVisualStyleBackColor = true;
             this.TwoPowerValues.Click += new System.EventHandler(this.Label2_Click);
             // 
-            // Log10 
+            // Log10
             // 
-            this.Log10.Location = new System.Drawing.Point(37, 286);
+            this.Log10.Location = new System.Drawing.Point(26, 248);
             this.Log10.Name = "Log10";
             this.Log10.Size = new System.Drawing.Size(53, 23);
             this.Log10.TabIndex = 28;
@@ -362,9 +349,9 @@
             this.Log10.UseVisualStyleBackColor = true;
             this.Log10.Click += new System.EventHandler(this.Label2_Click);
             // 
-            // Log2 
+            // Log2
             // 
-            this.Log2.Location = new System.Drawing.Point(37, 315);
+            this.Log2.Location = new System.Drawing.Point(26, 277);
             this.Log2.Name = "Log2";
             this.Log2.Size = new System.Drawing.Size(53, 23);
             this.Log2.TabIndex = 29;
@@ -373,13 +360,13 @@
             this.Log2.UseVisualStyleBackColor = true;
             this.Log2.Click += new System.EventHandler(this.Label2_Click);
             // 
-            // Form1 
+            // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
-            this.ClientSize = new System.Drawing.Size(546, 348);
+            this.ClientSize = new System.Drawing.Size(624, 337);
             this.Controls.Add(this.Log2);
             this.Controls.Add(this.Log10);
             this.Controls.Add(this.TwoPowerValues);
@@ -419,8 +406,6 @@
         }
 
         #endregion
-=======
->>>>>>> 0ec08c3573ccf72162c647c5aefae12fb8570fb4
 
         private System.Windows.Forms.Button Plus;
         private System.Windows.Forms.Button Minus;
@@ -451,7 +436,6 @@
         private System.Windows.Forms.Button Tangent;
         private System.Windows.Forms.Button TwoPowerValues;
         private System.Windows.Forms.Button Log10;
-        private System.Windows.Forms.Button TenPowerValues;
         private System.Windows.Forms.Button Log2;
 
     }
