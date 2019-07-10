@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.Plus = new System.Windows.Forms.Button();
             this.Minus = new System.Windows.Forms.Button();
             this.Multiply = new System.Windows.Forms.Button();
@@ -41,15 +42,16 @@
             this.label4 = new System.Windows.Forms.Label();
             this.SquareRoot = new System.Windows.Forms.Button();
             this.Power = new System.Windows.Forms.Button();
+            this.PowerTwoArguments = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // Plus
             // 
             this.Plus.Cursor = System.Windows.Forms.Cursors.Default;
             this.Plus.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.Plus.Location = new System.Drawing.Point(133, 43);
+            this.Plus.Location = new System.Drawing.Point(229, 122);
             this.Plus.Name = "Plus";
-            this.Plus.Size = new System.Drawing.Size(75, 23);
+            this.Plus.Size = new System.Drawing.Size(24, 23);
             this.Plus.TabIndex = 0;
             this.Plus.Text = "+";
             this.Plus.UseVisualStyleBackColor = true;
@@ -57,9 +59,9 @@
             // 
             // Minus
             // 
-            this.Minus.Location = new System.Drawing.Point(133, 72);
+            this.Minus.Location = new System.Drawing.Point(259, 122);
             this.Minus.Name = "Minus";
-            this.Minus.Size = new System.Drawing.Size(75, 23);
+            this.Minus.Size = new System.Drawing.Size(25, 23);
             this.Minus.TabIndex = 1;
             this.Minus.Text = "-";
             this.Minus.UseVisualStyleBackColor = true;
@@ -67,9 +69,9 @@
             // 
             // Multiply
             // 
-            this.Multiply.Location = new System.Drawing.Point(133, 101);
+            this.Multiply.Location = new System.Drawing.Point(290, 122);
             this.Multiply.Name = "Multiply";
-            this.Multiply.Size = new System.Drawing.Size(75, 23);
+            this.Multiply.Size = new System.Drawing.Size(22, 23);
             this.Multiply.TabIndex = 2;
             this.Multiply.Text = "*";
             this.Multiply.UseVisualStyleBackColor = true;
@@ -77,9 +79,9 @@
             // 
             // Divide
             // 
-            this.Divide.Location = new System.Drawing.Point(133, 130);
+            this.Divide.Location = new System.Drawing.Point(229, 151);
             this.Divide.Name = "Divide";
-            this.Divide.Size = new System.Drawing.Size(75, 23);
+            this.Divide.Size = new System.Drawing.Size(24, 23);
             this.Divide.TabIndex = 3;
             this.Divide.Text = "/";
             this.Divide.UseVisualStyleBackColor = true;
@@ -90,15 +92,15 @@
             this.firstValue.Location = new System.Drawing.Point(37, 80);
             this.firstValue.Multiline = true;
             this.firstValue.Name = "firstValue";
-            this.firstValue.Size = new System.Drawing.Size(75, 36);
+            this.firstValue.Size = new System.Drawing.Size(129, 36);
             this.firstValue.TabIndex = 4;
             // 
             // secondValue
             // 
-            this.secondValue.Location = new System.Drawing.Point(229, 80);
+            this.secondValue.Location = new System.Drawing.Point(185, 80);
             this.secondValue.Multiline = true;
             this.secondValue.Name = "secondValue";
-            this.secondValue.Size = new System.Drawing.Size(83, 36);
+            this.secondValue.Size = new System.Drawing.Size(127, 36);
             this.secondValue.TabIndex = 5;
             // 
             // Result
@@ -159,20 +161,34 @@
             // 
             // Power
             // 
+            this.Power.BackgroundImage = global::calculator.Properties.Resources._57519890e6de315516bbf632;
+            this.Power.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.Power.ForeColor = System.Drawing.SystemColors.Control;
             this.Power.Location = new System.Drawing.Point(71, 132);
             this.Power.Name = "Power";
-            this.Power.Size = new System.Drawing.Size(41, 21);
+            this.Power.Size = new System.Drawing.Size(137, 91);
             this.Power.TabIndex = 12;
             this.Power.Text = "x^2";
             this.Power.UseVisualStyleBackColor = true;
             this.Power.Click += new System.EventHandler(this.Label2_Click);
+            // 
+            // PowerTwoArguments
+            // 
+            this.PowerTwoArguments.Location = new System.Drawing.Point(259, 151);
+            this.PowerTwoArguments.Name = "PowerTwoArguments";
+            this.PowerTwoArguments.Size = new System.Drawing.Size(53, 23);
+            this.PowerTwoArguments.TabIndex = 13;
+            this.PowerTwoArguments.Text = "x^y";
+            this.PowerTwoArguments.UseVisualStyleBackColor = true;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.ClientSize = new System.Drawing.Size(527, 291);
+            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
+            this.ClientSize = new System.Drawing.Size(553, 379);
+            this.Controls.Add(this.PowerTwoArguments);
             this.Controls.Add(this.Power);
             this.Controls.Add(this.SquareRoot);
             this.Controls.Add(this.label4);
@@ -186,6 +202,7 @@
             this.Controls.Add(this.Multiply);
             this.Controls.Add(this.Minus);
             this.Controls.Add(this.Plus);
+            this.ForeColor = System.Drawing.SystemColors.ControlText;
             this.Name = "Form1";
             this.Text = "Form1";
             this.ResumeLayout(false);
@@ -208,6 +225,7 @@
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Button SquareRoot;
         private System.Windows.Forms.Button Power;
+        private System.Windows.Forms.Button PowerTwoArguments;
     }
 }
 
