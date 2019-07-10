@@ -18,6 +18,10 @@ namespace calculator.TwoArguments
                     return new DivisionCalculator();
                 case "PowerTwoArguments":
                     return new PowerTwoArguments();
+                case "PowerOfDivision":
+                    return new PowerOfDivision();
+                case "logTwoArguments":
+                    return new logTwoArguments();
                 default:
                     throw new Exception("Неизвестная операция");
             }

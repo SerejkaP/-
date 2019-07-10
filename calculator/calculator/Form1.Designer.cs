@@ -43,6 +43,8 @@
             this.SquareRoot = new System.Windows.Forms.Button();
             this.Power = new System.Windows.Forms.Button();
             this.PowerTwoArguments = new System.Windows.Forms.Button();
+            this.PowerOfDivision = new System.Windows.Forms.Button();
+            this.logTwoArguments = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // Plus
@@ -164,7 +166,7 @@
             this.Power.BackgroundImage = global::calculator.Properties.Resources._57519890e6de315516bbf632;
             this.Power.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.Power.ForeColor = System.Drawing.SystemColors.Control;
-            this.Power.Location = new System.Drawing.Point(71, 132);
+            this.Power.Location = new System.Drawing.Point(37, 158);
             this.Power.Name = "Power";
             this.Power.Size = new System.Drawing.Size(137, 91);
             this.Power.TabIndex = 12;
@@ -182,6 +184,26 @@
             this.PowerTwoArguments.UseVisualStyleBackColor = true;
             this.PowerTwoArguments.Click += new System.EventHandler(this.Label1_Click);
             // 
+            // PowerOfDivision
+            // 
+            this.PowerOfDivision.Location = new System.Drawing.Point(229, 180);
+            this.PowerOfDivision.Name = "PowerOfDivision";
+            this.PowerOfDivision.Size = new System.Drawing.Size(53, 23);
+            this.PowerOfDivision.TabIndex = 14;
+            this.PowerOfDivision.Text = "x^(1/y)";
+            this.PowerOfDivision.UseVisualStyleBackColor = true;
+            this.PowerOfDivision.Click += new System.EventHandler(this.Label1_Click);
+            // 
+            // logTwoArguments
+            // 
+            this.logTwoArguments.Location = new System.Drawing.Point(229, 209);
+            this.logTwoArguments.Name = "logTwoArguments";
+            this.logTwoArguments.Size = new System.Drawing.Size(53, 23);
+            this.logTwoArguments.TabIndex = 15;
+            this.logTwoArguments.Text = "LOGx(y)";
+            this.logTwoArguments.UseVisualStyleBackColor = true;
+            this.logTwoArguments.Click += new System.EventHandler(this.Label1_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -189,6 +211,8 @@
             this.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.ClientSize = new System.Drawing.Size(553, 379);
+            this.Controls.Add(this.logTwoArguments);
+            this.Controls.Add(this.PowerOfDivision);
             this.Controls.Add(this.PowerTwoArguments);
             this.Controls.Add(this.Power);
             this.Controls.Add(this.SquareRoot);
@@ -227,6 +251,8 @@
         private System.Windows.Forms.Button SquareRoot;
         private System.Windows.Forms.Button Power;
         private System.Windows.Forms.Button PowerTwoArguments;
+        private System.Windows.Forms.Button PowerOfDivision;
+        private System.Windows.Forms.Button logTwoArguments;
     }
 }
 
