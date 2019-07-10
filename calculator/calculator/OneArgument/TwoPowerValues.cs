@@ -2,7 +2,7 @@
 
 namespace calculator.OneArgument
 {
-    class TwoPowerValues : IOneArgumentCalculator
+    public class TwoPowerValues : IOneArgumentCalculator
     {
         public double Calculate(double firstValue)
         {
