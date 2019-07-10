@@ -24,6 +24,8 @@ namespace calculator.TwoArguments
                     return new LogTwoArguments();
                 case "MIN":
                     return new MinTwoArguments();
+                case "MAX":
+                    return new MaxTwoArguments();
                 default:
                     throw new Exception("Неизвестная операция");
             }

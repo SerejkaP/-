@@ -60,6 +60,7 @@
     <Compile Include="OneArgument\SquareRootCalculator.cs" />
     <Compile Include="TwoArguments\ICalculator.cs" />
     <Compile Include="TwoArguments\LogTwoArguments.cs" />
+    <Compile Include="TwoArguments\MaxTwoArguments.cs" />
     <Compile Include="TwoArguments\MinTwoArguments.cs" />
     <Compile Include="TwoArguments\MultiplyCalculator.cs" />
     <Compile Include="Program.cs" />
