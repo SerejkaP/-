@@ -48,6 +48,7 @@
             this.MIN = new System.Windows.Forms.Button();
             this.MAX = new System.Windows.Forms.Button();
             this.Average = new System.Windows.Forms.Button();
+            this.Geometric = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // Plus
@@ -237,6 +238,16 @@
             this.Average.UseVisualStyleBackColor = true;
             this.Average.Click += new System.EventHandler(this.Label1_Click);
             // 
+            // Geometric
+            // 
+            this.Geometric.Location = new System.Drawing.Point(318, 151);
+            this.Geometric.Name = "Geometric";
+            this.Geometric.Size = new System.Drawing.Size(61, 23);
+            this.Geometric.TabIndex = 19;
+            this.Geometric.Text = "Ср.геом";
+            this.Geometric.UseVisualStyleBackColor = true;
+            this.Geometric.Click += new System.EventHandler(this.Label1_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -244,6 +255,7 @@
             this.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.ClientSize = new System.Drawing.Size(553, 379);
+            this.Controls.Add(this.Geometric);
             this.Controls.Add(this.Average);
             this.Controls.Add(this.MAX);
             this.Controls.Add(this.MIN);
@@ -292,6 +304,7 @@
         private System.Windows.Forms.Button MIN;
         private System.Windows.Forms.Button MAX;
         private System.Windows.Forms.Button Average;
+        private System.Windows.Forms.Button Geometric;
     }
 }
 

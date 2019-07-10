@@ -59,6 +59,7 @@
     <Compile Include="OneArgument\OneArgumentFactory.cs" />
     <Compile Include="OneArgument\PowerCalculator.cs" />
     <Compile Include="OneArgument\SquareRootCalculator.cs" />
+    <Compile Include="TwoArguments\GeometricMean.cs" />
     <Compile Include="TwoArguments\ICalculator.cs" />
     <Compile Include="TwoArguments\LogTwoArguments.cs" />
     <Compile Include="TwoArguments\MaxTwoArguments.cs" />

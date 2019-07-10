@@ -28,6 +28,8 @@ namespace calculator.TwoArguments
                     return new MaxTwoArguments();
                 case "Average":
                     return new Average();
+                case "Geometric":
+                    return new GeometricMean();
                 default:
                     throw new Exception("Неизвестная операция");
             }
