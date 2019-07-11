@@ -7,7 +7,7 @@ namespace calculator.Tests.TwoArguments
     [TestFixture]
     class PowerOfDivisionTest
     {
-        [TestCase(0, 0, 0)]
+        [TestCase(0, 1, 0)]
         [TestCase(1, 2, 1)]
         [TestCase(4, 2, 2)]
         public void CalculateTest(double firstValue, double secondValue, double expected)
