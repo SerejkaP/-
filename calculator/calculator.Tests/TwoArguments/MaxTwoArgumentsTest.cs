@@ -8,10 +8,7 @@ namespace calculator.Tests.TwoArguments
         [TestCase(0, 0, 0)]
         [TestCase(3, 4, 4)]
         [TestCase(-7, -2, -2)]
-        public void CalculateTest(
-double firstValue,
-double secondValue,
-double expected)
+        public void CalculateTest(double firstValue, double secondValue, double expected)
         {
             var calculator = new calculator.TwoArguments.MaxTwoArguments();
             var actualResult = calculator.Calculate(firstValue, secondValue);

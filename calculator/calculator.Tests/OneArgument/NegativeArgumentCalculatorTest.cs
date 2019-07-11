@@ -8,9 +8,7 @@ namespace calculator.Tests.OneArgument
         [TestCase(0, 0)]
         [TestCase(10, -10)]
         [TestCase(-7, 7)]
-        public void CalculateTest(
-double firstValue,
-double expected)
+        public void CalculateTest(double firstValue, double expected)
         {
             var calculator = new calculator.OneArgument.NegativeArgumentCalculator();
             var actualResult = calculator.Calculate(firstValue);

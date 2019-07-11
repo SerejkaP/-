@@ -8,9 +8,7 @@ namespace calculator.Tests.OneArgument
         [TestCase(10, 1)]
         [TestCase(100, 2)]
         [TestCase(1, 0)]
-        public void CalculateTest(
-double firstValue,
-double expected)
+        public void CalculateTest(double firstValue, double expected)
         {
             var calculator = new calculator.OneArgument.LogOfTenCalculator();
             var actualResult = calculator.Calculate(firstValue);

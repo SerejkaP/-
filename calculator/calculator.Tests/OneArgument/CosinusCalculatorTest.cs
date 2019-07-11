@@ -9,9 +9,7 @@ namespace calculator.Tests.OneArgument
         [TestCase(0, 1)]
         [TestCase(1, 0.54)]
         [TestCase(2, -0.41)]
-        public void CalculateTest(
-double firstValue,
-double expected)
+        public void CalculateTest(double firstValue, double expected)
         {
             var calculator = new calculator.OneArgument.CosinusCalculator();
             var actualResult = calculator.Calculate(firstValue);

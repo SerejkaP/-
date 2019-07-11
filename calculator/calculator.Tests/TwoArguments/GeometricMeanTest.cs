@@ -8,10 +8,7 @@ namespace calculator.Tests.TwoArguments
         [TestCase(0, 0, 0)]
         [TestCase(1, 1, 1)]
         [TestCase(2, 2, 2)]
-        public void CalculateTest(
-double firstValue,
-double secondValue,
-double expected)
+        public void CalculateTest(double firstValue, double secondValue, double expected)
         {
             var calculator = new calculator.TwoArguments.MinTwoArguments();
             var actualResult = calculator.Calculate(firstValue, secondValue);

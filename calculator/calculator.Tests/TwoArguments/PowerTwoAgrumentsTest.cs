@@ -9,10 +9,7 @@ namespace calculator.Tests.TwoArguments
         [TestCase(2, 2, 4)]
         [TestCase(3, 5, 243)]
         [TestCase(5, 2, 25)]
-        public void CalculateTest(
-double firstValue,
-double secondValue,
-double expected)
+        public void CalculateTest(double firstValue, double secondValue, double expected)
         {
             var calculator = new calculator.TwoArguments.PowerTwoArguments();
             var actualResult = calculator.Calculate(firstValue, secondValue);
