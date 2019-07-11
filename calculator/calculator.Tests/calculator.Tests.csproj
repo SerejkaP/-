@@ -48,7 +48,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Class1.cs" />
     <Compile Include="OneArgument\AbsoluteCalculatorTest.cs" />
     <Compile Include="OneArgument\CosinusCalculatorTest.cs" />
     <Compile Include="OneArgument\DivisionByArgumentCalculatorTest.cs" />
