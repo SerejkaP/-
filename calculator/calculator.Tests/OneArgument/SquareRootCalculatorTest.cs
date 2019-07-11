@@ -19,9 +19,6 @@ namespace calculator.Tests.OneArgument
         {
             var calculator = new calculator.OneArgument.SquareRootCalculator();
             Assert.Throws<Exception>(() => calculator.Calculate(-4));
-
         }
-
-
     }
 } 
