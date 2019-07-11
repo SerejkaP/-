@@ -1,4 +1,5 @@
-﻿using NUnit.Framework;
+﻿using System;
+using NUnit.Framework;
 
 namespace calculator.Tests.OneArgument
 {
@@ -14,5 +15,13 @@ namespace calculator.Tests.OneArgument
             var actualResult = calculator.Calculate(firstValue);
             Assert.AreEqual(expected, actualResult);
         }
+
+        [Test]
+        public void NegativeDivisionByArgumentCalculatorTest()
+        {
+            var calculator = new calculator.OneArgument.DivisionByArgumentCalculator();
+            Assert.Throws<Exception>(() => calculator.Calculate(0));
+        }
+
     }
 }
