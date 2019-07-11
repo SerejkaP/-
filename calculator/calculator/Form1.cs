@@ -17,7 +17,16 @@ namespace calculator
             double firstArgument = Convert.ToDouble(firstValue.Text);
             double secondArgument = Convert.ToDouble(secondValue.Text);
             ICalculator calculator = TwoArgumentsFactory.CreateCalculator(((Button)sender).Name);
-            double result = calculator.Calculate(firstArgument, secondArgument);
+            double result=0;
+            try
+            {
+                result = calculator.Calculate(firstArgument, secondArgument);
+            }
+            catch (Exception exc)
+            {
+                MessageBox.Show(exc.Message, "Ошибка", MessageBoxButtons.OK);
+            }
+
             Result.Text = result.ToString();
         }
 
@@ -25,7 +34,16 @@ namespace calculator
         {
             double firstArgument = Convert.ToDouble(firstValue.Text);
             IOneArgumentCalculator calculator = OneArgumentFactory.CreateCalculator(((Button) sender).Name);
-            double result = calculator.Calculate(firstArgument);
+            double result = 0;
+            try
+            {
+                result = calculator.Calculate(firstArgument);
+            }
+            catch (Exception exc)
+            {
+                MessageBox.Show(exc.Message, "Ошибка", MessageBoxButtons.OK);
+            }
+
             Result.Text = result.ToString();
         }
     }
