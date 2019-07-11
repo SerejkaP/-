@@ -14,4 +14,4 @@ namespace calculator.Tests.OneArgument
         }
 
     }
-}
+} 
