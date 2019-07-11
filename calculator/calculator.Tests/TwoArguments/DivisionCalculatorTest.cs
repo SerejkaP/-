@@ -1,4 +1,5 @@
-﻿using NUnit.Framework;
+﻿using System;
+using NUnit.Framework;
 
 namespace calculator.Tests.TwoArguments
 {
@@ -13,5 +14,11 @@ namespace calculator.Tests.TwoArguments
                 Assert.AreEqual(2, actual);
             }
 
-        }
+            [Test]
+            public void NegativeDivisionCalculatorTest()
+            {
+                var calculator = new calculator.TwoArguments.DivisionCalculator();
+                Assert.Throws<Exception>(() => calculator.Calculate(1, 0));
+            }
+    }
 }
