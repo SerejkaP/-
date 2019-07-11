@@ -1,4 +1,5 @@
-﻿using NUnit.Framework;
+﻿using System;
+using NUnit.Framework;
 
 namespace calculator.Tests.TwoArguments
 {
@@ -13,6 +14,13 @@ namespace calculator.Tests.TwoArguments
             var calculator = new calculator.TwoArguments.ModuloCalculator();
             var actualResult = calculator.Calculate(firstValue, secondValue);
             Assert.AreEqual(expected, actualResult);
+        }
+
+        [Test]
+        public void NegativeModuloCalculatorTest()
+        {
+            var calculator = new calculator.TwoArguments.ModuloCalculator();
+            Assert.Throws<Exception>(() => calculator.Calculate(1, 0));
         }
     }
 }
