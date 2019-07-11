@@ -75,6 +75,7 @@
     <Compile Include="TwoArguments\PowerOfDivisionTest.cs" />
     <Compile Include="TwoArguments\PowerTwoAgrumentsTest.cs" />
     <Compile Include="TwoArguments\SubtractionCalculatorTest.cs" />
+    <Compile Include="TwoArguments\TwoArgumentsFactoryTest.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\calculator\calculator.csproj">
