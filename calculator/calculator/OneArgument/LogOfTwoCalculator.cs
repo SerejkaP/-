@@ -4,6 +4,11 @@ namespace calculator.OneArgument
 {
     public class LogOfTwoCalculator : IOneArgumentCalculator
     {
+        /// <summary>
+        /// this method find logarithm of argument by base 2
+        /// </summary>
+        /// <param name="firstValue"></param>
+        /// <returns></returns>
         public double Calculate(double firstValue)
         {
             if (firstValue < 0)
