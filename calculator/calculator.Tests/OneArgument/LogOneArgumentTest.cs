@@ -1,4 +1,5 @@
-﻿using NUnit.Framework;
+﻿using System;
+using NUnit.Framework;
 
 namespace calculator.Tests.OneArgument
 {
@@ -13,6 +14,13 @@ namespace calculator.Tests.OneArgument
             var calculator = new calculator.OneArgument.LogOneArgument();
             var actualResult = calculator.Calculate(firstValue);
             Assert.AreEqual(expected, actualResult,0.001);
+        }
+
+        [Test]
+        public void NegativeLogOneArgumentTest()
+        {
+            var calculator = new calculator.OneArgument.LogOneArgument();
+            Assert.Throws<Exception>(() => calculator.Calculate(-1));
         }
     }
 }
