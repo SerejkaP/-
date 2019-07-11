@@ -1,4 +1,5 @@
-﻿using NUnit.Framework;
+﻿using calculator.TwoArguments;
+using NUnit.Framework;
 
 
 namespace calculator.Tests.TwoArguments
@@ -11,7 +12,7 @@ namespace calculator.Tests.TwoArguments
         [TestCase(5, 2, 25)]
         public void CalculateTest(double firstValue, double secondValue, double expected)
         {
-            var calculator = new calculator.TwoArguments.PowerTwoArguments();
+            var calculator = new PowerTwoArguments();
             var actualResult = calculator.Calculate(firstValue, secondValue);
             Assert.AreEqual(expected, actualResult);
         }

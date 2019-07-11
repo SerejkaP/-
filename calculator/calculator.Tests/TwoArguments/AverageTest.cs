@@ -1,4 +1,5 @@
-﻿using NUnit.Framework;
+﻿using calculator.TwoArguments;
+using NUnit.Framework;
 
 namespace calculator.Tests.TwoArguments
 {
@@ -10,7 +11,7 @@ namespace calculator.Tests.TwoArguments
         [TestCase(-7, -3, -5)]
         public void CalculateTest(double firstValue, double secondValue, double expected)
         {
-            var calculator = new calculator.TwoArguments.Average();
+            var calculator = new Average();
             var actualResult = calculator.Calculate(firstValue, secondValue);
             Assert.AreEqual(expected, actualResult);
         }

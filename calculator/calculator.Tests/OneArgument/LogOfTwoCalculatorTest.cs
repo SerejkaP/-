@@ -1,4 +1,5 @@
 ﻿using System;
+using calculator.OneArgument;
 using NUnit.Framework;
 
 
@@ -12,7 +13,7 @@ namespace calculator.Tests.OneArgument
         [TestCase(1, 0)]
         public void CalculateTest(double firstValue, double expected)
         {
-            var calculator = new calculator.OneArgument.LogOfTwoCalculator();
+            var calculator = new LogOfTwoCalculator();
             var actualResult = calculator.Calculate(firstValue);
             Assert.AreEqual(expected, actualResult);
         }
@@ -20,7 +21,7 @@ namespace calculator.Tests.OneArgument
         [Test]
         public void NegativeLogOfTwoCalculatorTest()
         {
-            var calculator = new calculator.OneArgument.LogOfTwoCalculator();
+            var calculator = new LogOfTwoCalculator();
             Assert.Throws<Exception>(() => calculator.Calculate(-1));
         }
     }

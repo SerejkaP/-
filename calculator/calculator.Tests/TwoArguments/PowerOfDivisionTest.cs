@@ -1,4 +1,5 @@
 ﻿using System;
+using calculator.TwoArguments;
 using NUnit.Framework;
 
 namespace calculator.Tests.TwoArguments
@@ -11,7 +12,7 @@ namespace calculator.Tests.TwoArguments
         [TestCase(4, 2, 2)]
         public void CalculateTest(double firstValue, double secondValue, double expected)
         {
-            var calculator = new calculator.TwoArguments.PowerOfDivision();
+            var calculator = new PowerOfDivision();
             var actualResult = calculator.Calculate(firstValue,secondValue);
             Assert.AreEqual(expected, actualResult);
         }
@@ -19,7 +20,7 @@ namespace calculator.Tests.TwoArguments
         [Test]
         public void NegativePowerOfDivisionTest()
         {
-            var calculator = new calculator.TwoArguments.PowerOfDivision();
+            var calculator = new PowerOfDivision();
             Assert.Throws<Exception>(() => calculator.Calculate(1, 0));
         }
     }

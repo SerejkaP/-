@@ -1,4 +1,5 @@
-﻿using NUnit.Framework;
+﻿using calculator.OneArgument;
+using NUnit.Framework;
 
 namespace calculator.Tests.OneArgument
 {
@@ -10,7 +11,7 @@ namespace calculator.Tests.OneArgument
         [TestCase(1, 2.718)]
         public void CalculateTest(double firstValue, double expected)
         {
-            var calculator = new calculator.OneArgument.Exponent();
+            var calculator = new Exponent();
             var actualResult = calculator.Calculate(firstValue);
             Assert.AreEqual(expected, actualResult, 0.001);
         }
