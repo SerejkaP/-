@@ -23,7 +23,6 @@ namespace calculator.Tests.TwoArguments
         public void CalculateTest(string name, Type type)
         {
             var calculator = TwoArgumentsFactory.CreateCalculator(name);
-
             Assert.IsInstanceOf(type, calculator);
         }
 
