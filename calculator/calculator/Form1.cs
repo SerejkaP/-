@@ -17,34 +17,34 @@ namespace calculator
             double firstArgument = Convert.ToDouble(firstValue.Text);
             double secondArgument = Convert.ToDouble(secondValue.Text);
             ICalculator calculator = TwoArgumentsFactory.CreateCalculator(((Button)sender).Name);
-            double result=0;
             try
             {
-                result = calculator.Calculate(firstArgument, secondArgument);
+                var result = calculator.Calculate(firstArgument, secondArgument);
+                Result.Text = result.ToString();
             }
             catch (Exception exc)
             {
                 MessageBox.Show(exc.Message, "Ошибка", MessageBoxButtons.OK);
             }
 
-            Result.Text = result.ToString();
+           
         }
 
         private void Label2_Click(object sender, EventArgs e)
         {
             double firstArgument = Convert.ToDouble(firstValue.Text);
             IOneArgumentCalculator calculator = OneArgumentFactory.CreateCalculator(((Button) sender).Name);
-            double result = 0;
             try
             {
-                result = calculator.Calculate(firstArgument);
+                var result = calculator.Calculate(firstArgument);
+                Result.Text = result.ToString();
             }
             catch (Exception exc)
             {
                 MessageBox.Show(exc.Message, "Ошибка", MessageBoxButtons.OK);
             }
 
-            Result.Text = result.ToString();
+            
         }
     }
 }

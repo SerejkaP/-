@@ -9,7 +9,7 @@
         /// <returns></returns>
         public double Calculate(double firstValue)
         {
-            return firstValue = -firstValue;
+            return -firstValue;
         }
     }
 }

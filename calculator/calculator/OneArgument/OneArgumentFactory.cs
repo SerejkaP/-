@@ -5,7 +5,7 @@ namespace calculator.OneArgument
     public static class OneArgumentFactory
     {
         /// <summary>
-        /// factory for working with one argument
+        /// factory for calculators working with one argument
         /// </summary>
         /// <param name="name"></param>
         /// <returns></returns>
