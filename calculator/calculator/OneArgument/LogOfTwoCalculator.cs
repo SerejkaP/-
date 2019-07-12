@@ -15,7 +15,7 @@ namespace calculator.OneArgument
             {
                 throw new Exception("Аргумент меньше нуля");
             }
-            return Math.Log(firstValue,2);
+            return Math.Log(firstValue, 2);
         }
     }
 }

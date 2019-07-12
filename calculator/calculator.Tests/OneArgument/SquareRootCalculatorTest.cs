@@ -22,4 +22,4 @@ namespace calculator.Tests.OneArgument
             Assert.Throws<Exception>(() => calculator.Calculate(-4));
         }
     }
-} 
+}
