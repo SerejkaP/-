@@ -11,7 +11,7 @@ namespace calculator.OneArgument
         /// <returns></returns>
         public double Calculate(double firstValue)
         {
-            return Math.Pow(2,firstValue);
+            return Math.Pow(2, firstValue);
         }
     }
 }

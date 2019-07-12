@@ -2,7 +2,7 @@
 
 namespace calculator.OneArgument
 {
-    public class LogOneArgument :IOneArgumentCalculator
+    public class LogOneArgument : IOneArgumentCalculator
     {
         /// <summary>
         /// this method find logarithm of argument by base e

@@ -1,6 +1,6 @@
 ﻿namespace calculator.TwoArguments
 {
-    public class SubtractionCalculator :ICalculator
+    public class SubtractionCalculator : ICalculator
     {
         /// <summary>
         /// this method subtract two arguments

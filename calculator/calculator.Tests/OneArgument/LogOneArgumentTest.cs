@@ -14,7 +14,7 @@ namespace calculator.Tests.OneArgument
         {
             var calculator = new LogOneArgument();
             var actualResult = calculator.Calculate(firstValue);
-            Assert.AreEqual(expected, actualResult,0.001);
+            Assert.AreEqual(expected, actualResult, 0.001);
         }
 
         [Test]

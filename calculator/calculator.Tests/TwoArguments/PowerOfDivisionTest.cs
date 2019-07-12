@@ -13,7 +13,7 @@ namespace calculator.Tests.TwoArguments
         public void CalculateTest(double firstValue, double secondValue, double expected)
         {
             var calculator = new PowerOfDivision();
-            var actualResult = calculator.Calculate(firstValue,secondValue);
+            var actualResult = calculator.Calculate(firstValue, secondValue);
             Assert.AreEqual(expected, actualResult);
         }
 

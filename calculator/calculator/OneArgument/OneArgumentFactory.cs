@@ -16,7 +16,7 @@ namespace calculator.OneArgument
                 case "Power":
                     return new PowerCalculator();
                 case "SquareRoot":
-                    return new SquareRootCalculator(); 
+                    return new SquareRootCalculator();
                 case "Sinus":
                     return new SinusCalculator();
                 case "Cosinus":

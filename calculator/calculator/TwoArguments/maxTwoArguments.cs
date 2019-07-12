@@ -3,7 +3,7 @@
 
 namespace calculator.TwoArguments
 {
-    public class MaxTwoArguments :ICalculator
+    public class MaxTwoArguments : ICalculator
     {
         /// <summary>
         ///  this method find max argument

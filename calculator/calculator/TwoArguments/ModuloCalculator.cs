@@ -2,7 +2,7 @@
 
 namespace calculator.TwoArguments
 {
-    public class ModuloCalculator :ICalculator
+    public class ModuloCalculator : ICalculator
     {
         /// <summary>
         /// this method find remainder of the division

@@ -2,7 +2,7 @@
 
 namespace calculator.TwoArguments
 {
-    public class DivideCalculator:ICalculator
+    public class DivideCalculator : ICalculator
     {
         /// <summary>
         /// this method do integer division with two arguments

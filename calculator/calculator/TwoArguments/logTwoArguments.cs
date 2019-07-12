@@ -2,7 +2,7 @@
 
 namespace calculator.TwoArguments
 {
-    public class LogTwoArguments :ICalculator
+    public class LogTwoArguments : ICalculator
     {
         /// <summary>
         /// this method find log of second argument by base of first argument

@@ -2,7 +2,7 @@
 
 namespace calculator.TwoArguments
 {
-    public class MinTwoArguments :ICalculator
+    public class MinTwoArguments : ICalculator
     {
         /// <summary>
         /// this method find min argument
@@ -12,7 +12,7 @@ namespace calculator.TwoArguments
         /// <returns></returns>
         public double Calculate(double firstValue, double secondValue)
         {
-           return Math.Min(firstValue,secondValue);
+            return Math.Min(firstValue, secondValue);
         }
     }
 }
